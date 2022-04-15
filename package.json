@@ -4,7 +4,7 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "gh-pages": "nuxi generate && ./publishToGHPages.sh"
+    "generate": "nuxi generate"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
