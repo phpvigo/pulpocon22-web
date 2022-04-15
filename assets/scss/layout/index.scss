@@ -1,0 +1,6 @@
+.container-fluid-900 {
+  @extend .container-fluid-1440;
+  max-width: 900px;
+}
+
+@import "section";

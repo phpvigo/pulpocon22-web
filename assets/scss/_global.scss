@@ -1,0 +1,21 @@
+body {
+  font-family: 'Domine', serif;
+  min-height: 100vh;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -130px;
+  visibility: hidden;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}

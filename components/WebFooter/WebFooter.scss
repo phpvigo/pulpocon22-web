@@ -1,0 +1,58 @@
+@import "~/assets/scss/settings/_variables";
+
+.web-footer {
+  background: var(--blue) url(~/assets/i/bg-blue.jpg) no-repeat cover;
+  color: var(--contrast-color-seconday);
+  padding: 50px 0 50px 0;
+  position: relative;
+
+
+  &__content {
+  }
+
+  &__links {
+    padding-top: 30px;
+    text-align: center;
+
+    a {
+      color: var(--white);
+      margin: 0 5px 10px 5px;
+
+      //@include a(var(--red));
+    }
+  }
+}
+
+.event-organizer {
+  text-align: center;
+
+  &__title {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: var(--white);
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    padding: 0 20px 15px 20px;
+
+    &--phpvigo {
+      img {
+        width: 200px;
+      }
+    }
+
+    &--vigotech {
+      img {
+        width: 60px;
+      }
+    }
+
+    &--aindustriosa {
+      img {
+        width: 70px;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@import "~/assets/scss/settings/variables";
+
+$size: 50px;
+.btn-nav-down {
+  margin: auto;
+  border-radius: $size;
+  width: $size;
+  height: $size;
+  background-color: var(--primary-color);
+  color: var(--contrast-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 30px;
+  transform-origin: 0 100%;
+
+  &--red {
+    background-color: var(--red);
+    color: rgba($white, 0.6);
+  }
+
+  &--blue {
+    background-color: var(--blue);
+    color: var(--contrast-color-secondary);
+  }
+
+  &--white {
+    background-color: var(--red);
+    color: white;
+  }
+
+  &:hover {
+    animation: bounce 0.7s ease 0s both infinite;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scaleY(0.85) translate(0, 0);
+  }
+
+  50% {
+    transform: scaleY(1.1) translate(0, -20px);
+  }
+
+  100% {
+    transform: scaleY(0.85) translate(0, 0);
+  }
+}

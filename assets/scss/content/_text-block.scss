@@ -1,0 +1,60 @@
+.text-block {
+
+
+  p {
+    font-size: 19px;
+    line-height: 1.3em;
+    margin-bottom: 1.6em;
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 1em;
+    line-height: 1.2em;
+    color: var(--primary-color);
+
+    &.blue {
+      color: var(--blue);
+    }
+
+    &.red {
+      color: var(--red);
+    }
+
+    &.primary {
+      color: var(--primary-color);
+    }
+
+    &.contract {
+      color: var(--contrast-color);
+    }
+
+  }
+
+  h1 {
+    font-size: 4rem;
+    @include media($xs) {
+      font-size: 2.2em;
+    }
+  }
+
+  h2 {
+    font-size: 3rem;
+    @include media($xs) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    @include media($xs) {
+      font-size: 1.5em;
+    }
+  }
+
+
+  a {
+    color: $red;
+    @include a($red);
+  }
+}

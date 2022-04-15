@@ -1,0 +1,44 @@
+.section {
+  padding: 50px 0;
+  color: var(--primary-color);
+
+  p {
+    font-size: 25px;
+    margin-bottom: 1.5em;
+    line-height: 1.3em;
+
+    strong {
+      font-weight: 800;
+    }
+  }
+
+  &--blue {
+    color: var(--contrast-color-secondary);
+    background: var(--blue);
+
+    .section-title {
+      color: var(--red);
+    }
+
+    .content-wrapper {
+      color: var(--contrast-color-secondary);
+    }
+  }
+
+  &--red {
+    color: var(--contrast-color-secondary);
+    background: var(--red);
+
+    .section-title {
+      color: var(--contrast-color-secondary)
+    }
+
+    .content-wrapper {
+      color: white;
+    }
+  }
+
+  &--center {
+    text-align: center;
+  }
+}

@@ -1,0 +1,75 @@
+@import "~/assets/scss/settings/_variables";
+@import "~/assets/scss/mixins";
+
+.web-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  transition: all .2s ease-in-out;
+
+  &.not-in-top {
+    background: var(--red) url(~/assets/i/bg-red.jpg) no-repeat cover;
+    // background-color: var(--red);
+
+    .web-header__logo {
+      opacity: 1;
+
+      * {
+        fill: #fff;
+      }
+    }
+  }
+
+
+  &__content {
+    padding: 10px;
+    display: flex;
+  }
+
+  &__logo {
+    transition: all .2s ease-in-out;
+    opacity: 0;
+    height: 40px;
+  }
+
+  &__nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin: 5px;
+      color: var(--primary-color);
+      transition: all .2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.2)
+      }
+    }
+  }
+}
+
+.main-navigation {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+  &__item {
+    padding: 5px 0px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    @include underline-effect(var(--primary-color), 'center');
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+}
