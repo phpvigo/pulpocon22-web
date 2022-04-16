@@ -1,5 +1,5 @@
 <template>
-  <section class="home-tickets section section--red">
+  <section class="home-tickets section section--red section--bg-center">
     <a id="tickets"></a>
     <div class="container-fluid-900">
       Tickets

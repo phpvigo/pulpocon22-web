@@ -14,7 +14,8 @@
 
   &--blue {
     color: var(--contrast-color-secondary);
-    background: var(--blue);
+    background: var(--blue) url(~/assets/i/bg-blue.jpg) no-repeat;
+    background-size: cover;
 
     .section-title {
       color: var(--red);
@@ -27,7 +28,8 @@
 
   &--red {
     color: var(--contrast-color-secondary);
-    background: var(--red);
+    background: var(--red) url(~/assets/i/bg-red.jpg) no-repeat;
+    background-size: cover;
 
     .section-title {
       color: var(--contrast-color-secondary)
@@ -37,6 +39,15 @@
       color: white;
     }
   }
+
+  &--bg-center {
+    background-position: left center;
+  }
+
+  &--bg-bottom {
+    background-position: left bottom;
+  }
+
 
   &--center {
     text-align: center;
