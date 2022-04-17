@@ -20,6 +20,10 @@
       <nuxt-link to="/codigo-de-conducta">
         Código de conducta
       </nuxt-link>
+
+      <a href="mailto:hello@pulpocon.es">
+        hello@pulpocon.es
+      </a>
     </div>
   </footer>
 </template>

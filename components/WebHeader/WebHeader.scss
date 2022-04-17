@@ -61,7 +61,7 @@
 
     a {
       margin: 5px;
-      color: var(--primary-color);
+      color: var(--text-contrast-color);
       transition: all .2s ease-in-out;
 
       &:hover {
@@ -81,9 +81,9 @@
     margin: 0 10px;
     text-decoration: none;
     transition: all .2s ease-in-out;
-    @include underline-effect(var(--primary-color), 'center');
+    @include underline-effect(var(--text-contrast-color), 'center');
     letter-spacing: 2px;
-    color: var(--primary-color);
+    color: var(--text-contrast-color);
     font-weight: bold;
   }
 }

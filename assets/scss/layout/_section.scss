@@ -1,43 +1,72 @@
 .section {
   padding: 50px 0;
-  color: var(--primary-color);
+  color: var(--text-color);
+  background: var(--white) url(~/assets/i/bg-white.jpg) no-repeat;
+  background-size: cover;
 
-  p {
+  &__title {
+    margin-bottom: 1em;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1em;
+  }
+
+  a {
+    color: var(--text-color)
+  }
+
+  &__content {
+    margin-bottom: 20px;
+
+
     font-size: 25px;
-    margin-bottom: 1.5em;
     line-height: 1.3em;
 
-    strong {
-      font-weight: 800;
+    p {
+      margin-bottom: 1.5em;
+
+      strong {
+        font-weight: 800;
+      }
+    }
+  }
+
+  &__footer {
+    margin-bottom: 20px;
+  }
+
+  &--red,
+  &--blue {
+    color: var(--text-contrast-color);
+
+    a {
+      color: var(--text-contrast-color);
+    }
+
+    .section__content,
+    .section-title {
+      color: var(--text-contrast-color);
+    }
+
+
+    .section__content {
+
     }
   }
 
   &--blue {
-    color: var(--contrast-color-secondary);
     background: var(--blue) url(~/assets/i/bg-blue.jpg) no-repeat;
     background-size: cover;
 
-    .section-title {
-      color: var(--red);
-    }
 
-    .content-wrapper {
-      color: var(--contrast-color-secondary);
-    }
   }
 
   &--red {
-    color: var(--contrast-color-secondary);
     background: var(--red) url(~/assets/i/bg-red.jpg) no-repeat;
     background-size: cover;
-
-    .section-title {
-      color: var(--contrast-color-secondary)
-    }
-
-    .content-wrapper {
-      color: white;
-    }
   }
 
   &--bg-center {
@@ -45,7 +74,7 @@
   }
 
   &--bg-bottom {
-    background-position: left bottom;
+    background-position: left 99%;
   }
 
 

@@ -9,18 +9,10 @@ h3 {
   font-size: 2em;
 }
 
-.page-title,
-.section-title {
+.page-title {
   text-align: center;
   font-weight: 900;
   margin-bottom: 1em;
-  color: $primary-color;
+  color: var(--text-color);
   text-transform: uppercase;
-}
-
-.section-subtitle {
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 1em;
-  color: $secondary-color;
 }

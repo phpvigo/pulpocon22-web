@@ -1,8 +1,8 @@
 <template>
   <section :class="['sponsors', sponsorTypeClasses]">
-    <article v-for="sponsor in sponsors" :key="sponsor.name">
-      <component :is="sponsor.link ? 'a' : 'span'" :href="sponsor.link" target="_blank">
-        {{ sponsor.name }}
+    <article v-for="sponsor in catSponsors" :key="sponsor.name">
+      <component :is="sponsor.link ? 'a' : 'span'" :href="sponsor.link" class="sponsor" target="_blank">
+        <img :alt="sponsor.name" :src="sponsor.logo"/>
       </component>
     </article>
   </section>
@@ -19,7 +19,13 @@ export default defineComponent({
   setup(props) {
     const catSponsors: ComputedRef<Sponsor[]> = computed(() => sponsors[props.type] || [])
 
+    const sponsorTypeClasses: ComputedRef<string[]> = computed(() => {
+      return [`sponsors--${props.type}`]
+    })
+
     return {
+      sponsors,
+      sponsorTypeClasses,
       catSponsors
     }
   }

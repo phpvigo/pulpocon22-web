@@ -1,0 +1,29 @@
+@import '~/assets/scss/settings/variables';
+
+.btn {
+  display: inline-block;
+  border: 1px solid var(--text-color);
+  padding: 15px 25px;
+  color: var(--text-color);
+  border-radius: 2px;
+  text-decoration: none;
+  background: rgba($text-color, 0.15);
+  transition: all .2s ease-in-out;
+  font-size: 20px;
+
+  &:hover {
+    color: var(--contrast-color);
+    background: var(--text-color);
+  }
+
+  &--contrast {
+    border-color: var(--text-contrast-color);
+    background: rgba($text-contrast-color, 0.15);
+    color: var(--text-contrast-color);
+
+    &:hover {
+      color: var(--text-color);
+      background: var(--text-contrast-color);
+    }
+  }
+}

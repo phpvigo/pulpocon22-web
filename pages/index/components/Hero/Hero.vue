@@ -21,7 +21,7 @@
           </h2>
         </header>
 
-        <btn-nav-down color="red" to="#tickets"></btn-nav-down>
+        <btn-nav-down :to="{path:'/', hash: '#tickets'}" color="red"></btn-nav-down>
       </div>
     </div>
     <div class="home-hero__video responsive-embed-wrapper">

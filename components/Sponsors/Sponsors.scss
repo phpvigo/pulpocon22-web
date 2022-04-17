@@ -1,0 +1,23 @@
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .sponsor {
+    display: block;
+    padding: 20px;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2)
+    }
+  }
+
+  &--diamond {
+    .sponsor {
+      width: 300px;
+      max-width: 100%;
+      flex: 0 1 calc(33% - 15px);
+    }
+  }
+}

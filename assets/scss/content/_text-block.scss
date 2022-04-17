@@ -11,7 +11,7 @@
     font-weight: 700;
     margin-bottom: 1em;
     line-height: 1.2em;
-    color: var(--primary-color);
+    color: var(--text-color);
 
     &.blue {
       color: var(--blue);
@@ -22,7 +22,7 @@
     }
 
     &.primary {
-      color: var(--primary-color);
+      color: var(--text-color);
     }
 
     &.contract {

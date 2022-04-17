@@ -17,10 +17,23 @@ const sponsors: SponsorGroups = {
   [SponsorType.Diamond]: [
     {
       name: 'Nextail',
-      logo: '',
+      logo: '/i/sponsors/nextail.svg',
+      link: 'https://nextaillabs.recruitee.com/'
+    },
+    {
+      name: 'Nextail',
+      logo: '/i/sponsors/nextail.svg',
+      link: 'https://nextaillabs.recruitee.com/'
+    },
+    {
+      name: 'Nextail',
+      logo: '/i/sponsors/nextail.svg',
       link: 'https://nextaillabs.recruitee.com/'
     }
-  ]
+  ],
+  [SponsorType.Gold]: [],
+  [SponsorType.Bronze]: [],
+  [SponsorType.Supporter]: []
 }
 
 

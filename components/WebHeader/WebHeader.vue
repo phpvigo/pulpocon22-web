@@ -43,17 +43,8 @@
       </div>
       <div class="spacer"/>
       <div class="web-header__social">
-        <a href="https://www.linkedin.com/company/pulpocon/" target="_blank" title="LinkedIn">
-          <i class="fab fa-linkedin"/>
-        </a>
-        <a href="https://www.youtube.com/channel/UCVa-vcCBJ4tSKWmCFu8yfCg" target="_blank" title="LinkedIn">
-          <i class="fab fa-youtube"/>
-        </a>
-        <a href="https://www.instagram.com/pulpocon22/" target="_blank" title="Instagram">
-          <i class="fab fa-instagram"/>
-        </a>
-        <a href="https://twitter.com/phpulpocon" target="_blank" title="Twitter">
-          <i class="fab fa-twitter"/>
+        <a v-for="item in social" :key="item.name" :href="item.link" :title="item.name" target="_blank">
+          <i :class="item.faIcon"/>
         </a>
       </div>
     </div>
@@ -62,6 +53,7 @@
 
 <script lang="ts">
 import menu from '@/data/menu'
+import social from '@/data/social'
 import { storeToRefs } from 'pinia'
 import { defineComponent } from 'vue'
 import Logo from '~/components/Logo.vue'
@@ -73,7 +65,7 @@ export default defineComponent({
   components: {
     Logo
   },
-  setup(props, { emit }) {
+  setup() {
 
     const mobileMenu = useMobileMenuStore()
     const uiStore = useUIStore()
@@ -84,6 +76,7 @@ export default defineComponent({
     }
 
     return {
+      social,
       mobileMenuToggle,
       notInTop,
       menu,
