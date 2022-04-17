@@ -1,6 +1,5 @@
 <template>
-  <section class="home-venue section section--blue section--bg-bottom">
-    <a id="venue"></a>
+  <section id="location" class="home-venue section section--blue section--bg-bottom">
     <div class="container-fluid-900">
       <header class="section__header">
         <h2 class="section__title">

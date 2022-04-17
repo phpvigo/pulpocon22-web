@@ -1,5 +1,5 @@
 <template>
-  <section class="home-hero">
+  <section id="home" class="home-hero">
     <div class="home-hero__content">
       <div class="container-fluid-900">
         <logo class="home-hero__logo"></logo>
@@ -21,7 +21,7 @@
           </h2>
         </header>
 
-        <btn-nav-down :to="{path:'/', hash: '#tickets'}" color="red"></btn-nav-down>
+        <btn-nav-down color="red" to="/#tickets"></btn-nav-down>
       </div>
     </div>
     <div class="home-hero__video responsive-embed-wrapper">
