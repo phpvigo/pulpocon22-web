@@ -2,8 +2,8 @@
   <transition name="slide-right">
     <div
         v-show="visible"
-        id="mobile-menu"
         :class="{'not-in-top': notInTop}"
+        class="mobile-menu"
     >
       <div
           class="cover"

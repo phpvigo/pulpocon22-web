@@ -1,20 +1,17 @@
 <template>
-  <header :class="['web-header', {'not-in-top': notInTop }]">
+  <header :class="['web-header', {'not-in-top': notInTop || mobileMenuVisible }]">
     <div class="web-header__content container-fluid-1440">
-      <div
-          id="mobile-menu-toggle"
-          class="hidden-lg"
-          @click="mobileMenuToggle()"
-      >
+      <div class="mobile-menu-toggle hidden-lg" @click="mobileMenuToggle">
         <i class="fa fa-bars"/>
       </div>
+      <div class="web-header__spacer hidden-lg"></div>
 
       <div class="web-header__logo-wrapper">
         <nuxt-link to="/#home">
           <logo class="web-header__logo"></logo>
         </nuxt-link>
       </div>
-      <div class="web-header__nav hidden-xs hidden-sm hidden-md">
+      <div class="web-header__nav hidden-xs hidden-lxs hidden-sm hidden-md">
         <nav role="navigation">
           <ul class="main-navigation">
             <li
@@ -70,12 +67,15 @@ export default defineComponent({
     const mobileMenu = useMobileMenuStore()
     const uiStore = useUIStore()
     const { notInTop } = storeToRefs(uiStore)
+    const mobileMenuStore = useMobileMenuStore()
+    const { visible: mobileMenuVisible } = storeToRefs(mobileMenuStore)
 
     const mobileMenuToggle = (): void => {
       mobileMenu.toggle()
     }
 
     return {
+      mobileMenuVisible,
       social,
       mobileMenuToggle,
       notInTop,

@@ -16,5 +16,9 @@
     i {
       margin-right: 10px;
     }
+
+    span {
+      @include underline-effect(var(--text-contrast-color));
+    }
   }
 }

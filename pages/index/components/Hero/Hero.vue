@@ -21,21 +21,10 @@
           </h2>
         </header>
 
-        <btn-nav-down color="red" to="/#tickets"></btn-nav-down>
+        <btn-nav-down color="red" to="/#diamond"></btn-nav-down>
       </div>
     </div>
-    <div class="home-hero__video responsive-embed-wrapper">
-      <iframe
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-          frameborder="0"
-          height="300"
-          src="https://www.youtube-nocookie.com/embed/WpDVBsNkP1U?playlist=WpDVBsNkP1U&start=35&autoplay=1&controls=0&loop=1&modestbranding
-      =1&mute=1&showinfo=0&disablekb=1"
-          title="PulpoCon"
-          width="560"
-      ></iframe>
-    </div>
+    <video autoplay class="home-hero__video" loop muted src="/video/pulpocon.m4v"></video>
   </section>
 </template>
 <script lang="ts">

@@ -1,0 +1,41 @@
+.page-simple {
+  background: url(../i/bg-white.jpg) no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-size: 3em;
+    color: var(--red);
+    line-height: 1.1em;
+    @include media-min($sm) {
+      font-size: 4em;
+    }
+  }
+
+  &__wrapper {
+    padding-top: 80px;
+    line-height: 1.4em;
+    margin-bottom: 70px;
+
+    @include media-min($sm) {
+      padding-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 1.5em 0 1em 0;
+      line-height: 1.1em
+    }
+
+    p {
+      margin-bottom: 1.2em;
+      word-break: break-word;
+    }
+
+
+    a {
+      @include a-inverse(var(--red), var(--red));
+      color: $red;
+      font-weight: bold;
+    }
+  }
+}

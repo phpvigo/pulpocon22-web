@@ -9,6 +9,7 @@ $lg: (map-get($grid-breakpoints, lg));
 @import "mixins";
 @import "settings/fontface";
 @import "settings/variables";
+@import "transitions";
 @import "layout";
 @import "theme";
 @import "global";

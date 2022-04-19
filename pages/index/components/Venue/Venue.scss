@@ -1,6 +1,40 @@
 @import "~/assets/scss/settings/variables";
+@import "~/assets/scss/mixins";
 
 .home-venue {
+  .section {
+    &__content {
+      margin-bottom: 2em;
+    }
+  }
 
+  &__location {
+    margin-bottom: 1.5em;
+
+    a {
+      @include a(var(--text-contrast-color));
+    }
+  }
 }
 
+
+.transport-info {
+  margin-bottom: 2em;
+
+  &__title {
+    font-size: 20px;
+    margin-bottom: 0.8em;
+    color: var(--text-color);
+
+    i {
+      color: var(--red);
+    }
+  }
+
+  &__content {
+    a {
+      font-weight: 900;
+      @include a-inverse(var(--text-contrast-color), var(--red));
+    }
+  }
+}

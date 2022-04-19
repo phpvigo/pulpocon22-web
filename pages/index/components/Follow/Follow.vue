@@ -10,7 +10,7 @@
       <div class="section__content">
         <div class="home-follow__links">
           <a v-for="item in social" :href="item.link" :title="item.name" class="home-follow__link" target="_blank">
-            <i :class="item.faIcon"></i> {{ item.name }}
+            <i :class="item.faIcon"></i> <span>{{ item.name }}</span>
           </a>
         </div>
       </div>

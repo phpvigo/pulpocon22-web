@@ -1,10 +1,10 @@
 <template>
-  <article class="page">
+  <article class="page-simple__wrapper">
     <div class="container-fluid-900">
-      <header class="page__header">
-        <h1 class="page__title">Código de conducta</h1>
+      <header class="page-simple__header">
+        <h1 class="page-simple__title">Código de conducta</h1>
       </header>
-      <div class="page__content">
+      <div class="page-simple__content">
         <p>Requerimos que todos los asistentes, ponentes, patrocinios y voluntariado de nuestra conferencia estén de
           acuerdo con el siguiente código de conducta.</p>
 
@@ -48,11 +48,14 @@
           acosados a sentirse seguros durante la conferencia.</p>
         <p>Valoramos tu asistencia. Esperamos que los participantes sigan estas reglas durante la conferencia.</p>
 
-        <p>Source and credit: https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md</p>
+        <p>Source and credit: <a href="https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md">https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md</a>
+        </p>
 
-        <p>Original source and credit: http://2012.jsconf.us/#/about & The Ada Initiative</p>
+        <p>Original source and credit: <a href="http://2012.jsconf.us/#/about & The Ada Initiative">http://2012.jsconf.us/#/about</a>
+        </p>
 
-        <p>Please help by translating or improving: http://github.com/leftlogic/confcodeofconduct.com</p>
+        <p>Please help by translating or improving: <a href="http://github.com/leftlogic/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a>
+        </p>
 
         <p>This work is licensed under a Creative Commons Attribution 3.0 Unported License</p>
 
@@ -61,10 +64,17 @@
   </article>
 </template>
 <script lang="ts">
+import { useHead } from '@vueuse/head'
 import { defineComponent } from 'vue'
-
 
 export default defineComponent({
   name: 'CodeOfConduct',
+  setup() {
+    useHead({
+      bodyAttrs: {
+        class: 'page-simple page-code-of-conduct'
+      }
+    })
+  }
 })
 </script>

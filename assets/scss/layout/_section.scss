@@ -1,3 +1,5 @@
+@import "~/assets/scss/mixins";
+
 .section {
   padding: 50px 0;
   color: var(--text-color);
@@ -15,7 +17,8 @@
   }
 
   a {
-    color: var(--text-color)
+    color: var(--text-color);
+    // @include underline-effect-inverse(var(--text-color))
   }
 
   &__content {

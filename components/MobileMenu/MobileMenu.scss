@@ -1,0 +1,55 @@
+@import "~/assets/scss/settings/variables";
+@import "~/assets/scss/mixins";
+
+.mobile-menu {
+  position: fixed;
+  color: $white;
+  top: 63px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 98;
+
+
+  transition: all .2s ease-in-out;
+
+
+  .cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba($black, 0.6);
+    z-index: 8;
+  }
+
+  .navigation {
+    position: absolute;
+    width: 60%;
+    max-width: 250px;
+    background: var(--red);
+    background-size: cover;
+    padding: 30px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+  }
+
+  ul {
+    li {
+      a {
+        display: block;
+        padding: 10px 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        color: $white;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1em;
+      }
+    }
+  }
+}

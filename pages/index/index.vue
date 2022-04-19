@@ -7,6 +7,7 @@
 </template>
 
 <script lang="ts">
+import { useHead } from '@vueuse/head'
 import { defineComponent } from 'vue'
 import { SponsorType } from '~/data/sponsors'
 import HomeFollow from '~/pages/index/components/Follow'
@@ -19,6 +20,12 @@ export default defineComponent({
   name: 'Index',
   components: { HomeHero, HomeTickets, HomeFollow, HomeVenue, SponsorsBlock },
   setup() {
+    useHead({
+      bodyAttrs: {
+        class: 'home'
+      }
+    })
+
     return {
       SponsorType
     }

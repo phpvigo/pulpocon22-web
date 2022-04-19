@@ -7,6 +7,7 @@
   </div>
 </template>
 <script lang="ts">
+import { storeToRefs } from 'pinia'
 import { defineComponent, onBeforeUnmount, onMounted } from 'vue'
 import MobileMenu from '~/components/MobileMenu'
 import WebFooter from '~/components/WebFooter'
@@ -23,7 +24,8 @@ export default defineComponent({
   },
   setup() {
     const { setNotInTop } = useUIStore()
-    const { visible } = useMobileMenuStore()
+    const mobileMenuStore = useMobileMenuStore()
+    const { visible } = storeToRefs(mobileMenuStore)
 
 
     const handleScroll = (): void => {

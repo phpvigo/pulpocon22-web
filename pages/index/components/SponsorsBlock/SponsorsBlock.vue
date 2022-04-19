@@ -1,5 +1,5 @@
 <template>
-  <div class="sponsors-block section">
+  <div :id="type" class="sponsors-block section">
     <div class="container-fluid-1440">
       <div class="section__content">
         <sponsors :type="type"></sponsors>
