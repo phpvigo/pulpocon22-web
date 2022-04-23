@@ -8,6 +8,10 @@ export default <RouterConfig>{
         behavior: 'smooth',
         top: to.hash === '#home' ? 0 : 100
       }
+    } else {
+      return {
+        top: 0
+      }
     }
   }
 }

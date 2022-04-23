@@ -3,7 +3,7 @@
 .section {
   padding: 50px 0;
   color: var(--text-color);
-  background: var(--white) url(~/assets/i/bg-white.jpg) no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 
   &__title {
@@ -57,16 +57,19 @@
     }
   }
 
+  &--white {
+    background-color: white;
+    background-image: url(~/assets/i/bg-white.jpg);
+  }
+
   &--blue {
-    background: var(--blue) url(~/assets/i/bg-blue.jpg) no-repeat;
-    background-size: cover;
-
-
+    background-color: var(--blue);
+    background-image: url(~/assets/i/bg-blue.jpg);
   }
 
   &--red {
-    background: var(--red) url(~/assets/i/bg-red.jpg) no-repeat;
-    background-size: cover;
+    background-color: var(--red);
+    background-image: url(~/assets/i/bg-red.jpg);
   }
 
   &--bg-center {
@@ -75,6 +78,10 @@
 
   &--bg-bottom {
     background-position: left 99%;
+  }
+
+  &--bg-200 {
+    background-position: left -300px;
   }
 
 

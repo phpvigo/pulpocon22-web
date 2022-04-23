@@ -13,6 +13,10 @@ const menu: MenuItem[] = [
     "title": "Ubicación"
   },
   {
+    "link": "/#program",
+    "title": "Programa"
+  },
+  {
     "link": "/codigo-de-conducta",
     "title": "Código de conducta"
   },

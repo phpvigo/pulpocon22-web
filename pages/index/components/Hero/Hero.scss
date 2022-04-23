@@ -3,10 +3,9 @@
 .home-hero {
   position: relative;
   color: var(--text-contrast-color);
-  min-height: 100vh;
-  overflow: hidden;
 
   &__content {
+    min-height: 70vh;
     padding-top: 120px;
     padding-bottom: 50px;
     z-index: 2;

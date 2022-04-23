@@ -12,12 +12,12 @@
   }
 
   &__wrapper {
-    padding-top: 80px;
+    padding-top: 50px;
     line-height: 1.4em;
     margin-bottom: 70px;
 
     @include media-min($sm) {
-      padding-top: 100px;
+      padding-top: 60px;
       margin-bottom: 100px;
     }
 
