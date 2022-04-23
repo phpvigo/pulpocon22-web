@@ -26,7 +26,7 @@
         <btn-nav-down color="red" to="/#tickets"></btn-nav-down>
       </div>
     </div>
-    <video autoplay class="home-hero__video" loop muted src="/video/pulpocon.m4v"></video>
+    <video autoplay class="home-hero__video" loop muted src="public/video/pulpocon.m4v"></video>
   </section>
 </template>
 <script lang="ts">

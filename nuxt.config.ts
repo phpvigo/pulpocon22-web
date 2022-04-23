@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 
 const pkg = require('./package')
 
@@ -27,5 +27,8 @@ export default defineNuxtConfig({
   ],
   build: {
     extractCSS: true,
+  },
+  vite: {
+    assetsInclude: ['**/*.m4v'],
   }
 })

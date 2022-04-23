@@ -7,9 +7,9 @@
     "generate": "nuxi generate"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.8.1",
-    "nuxt3": "latest",
-    "sass": "^1.50.0",
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "nuxt": "npm:nuxt3@latest",
+    "sass": "^1.50.1",
     "sireno-grid": "^0.4.x"
   },
   "dependencies": {
