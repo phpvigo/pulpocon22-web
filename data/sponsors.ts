@@ -21,14 +21,9 @@ const sponsors: SponsorGroups = {
       link: 'https://nextaillabs.recruitee.com/'
     },
     {
-      name: 'Nextail',
-      logo: '/i/sponsors/nextail.svg',
-      link: 'https://nextaillabs.recruitee.com/'
-    },
-    {
-      name: 'Nextail',
-      logo: '/i/sponsors/nextail.svg',
-      link: 'https://nextaillabs.recruitee.com/'
+      name: 'Twilio',
+      logo: '/i/sponsors/twilio.svg',
+      link: 'https://www.twilio.com/'
     }
   ],
   [SponsorType.Gold]: [],

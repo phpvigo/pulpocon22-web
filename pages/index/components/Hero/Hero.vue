@@ -15,13 +15,15 @@
           <p>Con reconocidos ponentes de gran prestigio nacional e internacional.</p>
         </article>
 
+        <sponsors-block :type="SponsorType.Diamond"></sponsors-block>
+
         <header class="home-hero__header text-block">
           <h2 class="blue">
             Vigo, 1, 2 y 3 de Septiembre de 2022
           </h2>
         </header>
 
-        <btn-nav-down color="red" to="/#diamond"></btn-nav-down>
+        <btn-nav-down color="red" to="/#tickets"></btn-nav-down>
       </div>
     </div>
     <video autoplay class="home-hero__video" loop muted src="/video/pulpocon.m4v"></video>
@@ -31,16 +33,20 @@
 import { defineComponent } from 'vue'
 import BtnNavDown from '~/components/BtnNavDown'
 import Logo from '~/components/Logo.vue'
+import { SponsorType } from '~/data/sponsors'
+import SponsorsBlock from '~/pages/index/components/SponsorsBlock'
 
 export default defineComponent({
   name: 'HomeHero',
   components: {
     Logo,
+    SponsorsBlock,
     BtnNavDown
   },
   setup() {
-
-    return {}
+    return {
+      SponsorType
+    }
   }
 })
 </script>

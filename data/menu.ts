@@ -12,16 +12,20 @@ const menu: MenuItem[] = [
     "link": "/#location",
     "title": "Ubicación"
   },
-  {
-    "link": "/#program",
-    "title": "Programa"
-  },
+  // {
+  //   "link": "/#program",
+  //   "title": "Programa"
+  // },
   {
     "link": "/codigo-de-conducta",
     "title": "Código de conducta"
   },
   {
-    "link": "https://2019.pulpocon.es",
+    "link": "/diversity",
+    "title": "Diversidad"
+  },
+  {
+    "link": "/#2019",
     "title": "PulpoCon19"
   }
 ]

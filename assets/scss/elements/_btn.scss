@@ -12,7 +12,7 @@
   font-size: 20px;
 
   &:hover {
-    color: var(--contrast-color);
+    color: var(--text-contrast-color);
     background: var(--text-color);
   }
 
@@ -24,6 +24,17 @@
     &:hover {
       color: var(--text-color);
       background: var(--text-contrast-color);
+    }
+  }
+
+  &--blue {
+    border-color: var(--blue);
+    background: rgba($blue, 0.15);
+    color: var(--text-contrast-color);
+
+    &:hover {
+      color: var(--text-color);
+      background: var(--blue);
     }
   }
 }

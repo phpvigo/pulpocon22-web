@@ -6,6 +6,20 @@
       </div>
     </header>
 
+    <aside>
+      <ul class="event-day__legend">
+        <li class="event-day__legend-item event-day__legend--talk">
+          <span></span> Charla
+        </li>
+        <li class="event-day__legend-item event-day__legend--workshop">
+          <span></span> Taller
+        </li>
+        <li class="event-day__legend-item event-day__legend--break">
+          <span></span> Densanso
+        </li>
+      </ul>
+    </aside>
+
     <div class="event-day__tracks">
       <div class="grid-row">
         <div v-for="track in day.tracks" :class="['col-xs-12', day.tracks.length > 1 ? 'col-sm-6' : '']">
@@ -14,13 +28,28 @@
               {{ track.name }}
             </div>
             <div class="schedule-list">
-              <div v-for="(item, index) in track.schedule" :key="`${track.name}-${index}`" class="schedule">
+              <div
+                  v-for="(item, index) in track.schedule"
+                  :key="`${track.name}-${index}`"
+                  :class="['schedule', `schedule--${item.type}`]"
+              >
                 <div class="schedule__time">
-                  {{ item.time.join('-') }}
+                  <i class="fa fa-clock"></i>
+                  <div>
+                    <span v-for="t in item.time" :key="`${track.name}-${t}`">{{ t }}</span>
+                  </div>
                 </div>
-                <div class="schedule__title">
-                  {{ item.title }}
-                  {{ item.speakers }}
+                <div class="schedule__details">
+                  <div class="schedule__title">
+                    {{ item.title }}
+                  </div>
+                  <ul class="schedule__speakers">
+                    <li v-for="id in item.speakers" class="schedule__speaker">
+                      <nuxt-link :to="`/ponente/${id}`">
+                        {{ id }}
+                      </nuxt-link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

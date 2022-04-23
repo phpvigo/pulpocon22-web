@@ -12,6 +12,8 @@
             <event-day :day="eventDay"/>
           </tab>
         </tabs>
+
+
       </div>
     </div>
 

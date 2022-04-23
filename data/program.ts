@@ -1,6 +1,7 @@
 export enum Type {
   Workshop = 'workshop',
   Talk = 'talk',
+  Break = 'break'
 }
 
 export interface ScheduleBase {

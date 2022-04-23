@@ -12,7 +12,7 @@
     position: relative;
     backdrop-filter: blur(5px);
     background: linear-gradient(rgba($black, .20), rgba($black, .60));
-    animation: fade-in 0.7s ease-in-out 3s backwards,
+    animation: fade-in 0.7s ease-in-out 1s backwards,
     hero-cover-blur 1s ease-in-out 5s backwards;
   }
 
@@ -21,7 +21,7 @@
     width: 600px;
     margin: auto;
     display: block;
-    animation: hero-logo 1s ease-in-out 3.2s backwards;
+    animation: hero-logo 1s ease-in-out 1.2s backwards;
     margin-bottom: 80px;
 
     .logo__letter {
@@ -33,12 +33,16 @@
     line-height: 1.4em;
     font-size: 20px;
     text-align: center;
-    animation: hero-desc 0.7s ease-in-out 3.5s backwards;
+    animation: hero-desc 0.7s ease-in-out 1.5s backwards;
     margin-bottom: 3em;
   }
 
   &__header {
     text-align: center;
+  }
+
+  .sponsors {
+    animation: zoom-in 0.7s ease-in-out 1.7s backwards;
   }
 
   &__video {
@@ -60,6 +64,25 @@
     opacity: 0;
   }
   100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(2);
+  }
+
+  73% {
+    transform: scale(0.95);
+  }
+  88% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
     opacity: 1;
   }
 }

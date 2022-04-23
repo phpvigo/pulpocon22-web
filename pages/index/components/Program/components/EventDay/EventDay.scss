@@ -1,0 +1,88 @@
+@import "~/assets/scss/settings/variables";
+
+.event-day {
+  &__legend {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 0.7em;
+    flex-wrap: wrap;
+
+    &-item {
+      margin: 0 25px 7px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px
+    }
+
+    span {
+      display: block;
+      width: 15px;
+      height: 15px;
+      border-radius: 99px;
+      background-color: #f00;
+    }
+
+    &--talk {
+      span {
+        background-color: $red;
+      }
+    }
+
+    &--workshop {
+      span {
+        background-color: #{darken($blue, 20)};
+      }
+    }
+
+    &--break {
+      span {
+        background-color: $gray;
+      }
+    }
+  }
+}
+
+
+.schedule {
+  display: flex;
+  padding: 10px 0;
+  font-size: 0.9em;
+  gap: 15px;
+
+  &__time {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.1em;
+    margin: 5px;
+    font-weight: bold;
+
+    i {
+      margin-right: 5px;
+    }
+
+    span {
+      display: block;
+    }
+  }
+
+  &__details {
+
+  }
+
+  &__title {
+    color: $gray;
+    font-weight: bold;
+  }
+
+  &--talk {
+    .schedule__title {
+      color: $red;
+    }
+  }
+
+  &--workshop {
+    .schedule__title {
+      color: #{darken($blue, 20)};
+    }
+  }
+}
