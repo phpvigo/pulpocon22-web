@@ -1,0 +1,39 @@
+
+.tabs-component {
+  &-tabs {
+    display: flex;
+    margin-bottom: 2em;
+  }
+
+  &-tab {
+    padding: 7px 15px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    margin-right: 20px;
+
+    &:before {
+      content: '';
+      @include cover();
+      top: auto;
+      height: 5px;
+      z-index: -1;
+      background: var(--red);
+      transition: all 0.2s ease-in-out;
+      transform: translateY(100%);
+    }
+
+    &.is-active {
+      &:before {
+        transform: translateX(0);
+      }
+
+      color: var(--text-contrast-color);
+    }
+  }
+
+  &-tab-a {
+    text-decoration: none;
+  }
+}

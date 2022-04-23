@@ -1,3 +1,21 @@
 .home-program {
 
+  .tabs-component-tab {
+    &:nth-child(3) {
+      font-weight: bold;
+
+      a {
+        color: var(--red)
+      }
+    }
+  }
+
+  .conference-day {
+
+
+    a {
+      color: var(--red)
+    }
+
+  }
 }

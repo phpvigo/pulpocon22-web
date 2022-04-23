@@ -3,16 +3,13 @@
     <div class="web-footer__content container-fluid-1440">
       <div class="event-organizer">
         <h3 class="event-organizer__title">
-          Organiza
+          Organizan
         </h3>
         <a class="event-organizer__link event-organizer__link--aindustriosa" href="https://intranet.aindustriosa.org/">
-          <img alt="A Industriosa" src="/i/aindustriosa.png">
-        </a>
-        <a class="event-organizer__link event-organizer__link--phpvigo" href="https://phpvigo.com/">
-          <img alt="PHPVigo" src="/i/phpvigo.png">
+          <logo-industriosa color="#222"></logo-industriosa>
         </a>
         <a class="event-organizer__link event-organizer__link--vigotech" href="https://vigotech.org/">
-          <img alt="VigoTech" src="/i/vigotech.png">
+          <logo-vigo-tech color="#222"></logo-vigo-tech>
         </a>
       </div>
     </div>
@@ -30,8 +27,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import LogoIndustriosa from '~/components/Logos/Aindustriosa.vue'
+import LogoVigoTech from '~/components/Logos/VigoTech.vue'
 
 export default defineComponent({
-  name: 'WebFooter'
+  name: 'WebFooter',
+  components: { LogoIndustriosa, LogoVigoTech }
 })
 </script>

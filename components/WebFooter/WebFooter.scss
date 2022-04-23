@@ -1,9 +1,10 @@
 @import "~/assets/scss/settings/_variables";
+@import "~/assets/scss/mixins";
 
 .web-footer {
   background: var(--blue) url(~/assets/i/bg-blue.jpg) no-repeat;
   background-size: cover;
-  color: var(--text-contrast-color);
+  color: var(--text-color);
   padding: 50px 0 50px 0;
   position: relative;
 
@@ -16,10 +17,9 @@
     text-align: center;
 
     a {
-      color: var(--white);
       margin: 0 5px 10px 5px;
-
-      //@include a(var(--red));
+      color: var(--text-color);
+      @include a-inverse(var(--text-color), var(--text-color));
     }
   }
 }
@@ -29,7 +29,7 @@
 
   &__title {
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 0 0 30px 0;
     color: var(--white);
     font-weight: 900;
     text-transform: uppercase;
@@ -38,22 +38,13 @@
   &__link {
     padding: 0 20px 15px 20px;
 
-    &--phpvigo {
-      img {
-        width: 200px;
-      }
+
+    .organizer--vigotech {
+      width: 60px;
     }
 
-    &--vigotech {
-      img {
-        width: 60px;
-      }
-    }
-
-    &--aindustriosa {
-      img {
-        width: 70px;
-      }
+    .organizer--aindustriosa {
+      width: 70px;
     }
   }
 }
