@@ -2,7 +2,7 @@
   <section class="home-tickets section section--red section--bg-center">
     <a id="tickets"></a>
     <div class="container-fluid-900">
-      <header>
+      <header class="section__header">
         <h2 class="section__title">
           Entradas
         </h2>
@@ -14,7 +14,9 @@
         </p>
       </div>
       <footer class="section__footer">
-        <a class="btn btn--contrast" href="#link-to-google-form" target="_blank">
+        <a class="btn btn--contrast"
+           href="https://docs.google.com/forms/d/e/1FAIpQLScsYazTzaqii0uBmTW9MF8gfpAcfuC0MuTN3j7c-uDmKTh5uQ/viewform"
+           target="_blank">
           Apúntate a la preventa
         </a>
       </footer>

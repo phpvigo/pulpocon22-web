@@ -1,7 +1,7 @@
 <template>
   <section id="program" class="home-program section section--white section--bg-200">
     <div class="container-fluid-900">
-      <header class="section_header">
+      <header class="section__header">
         <h2 class="section__title">
           Programa
         </h2>

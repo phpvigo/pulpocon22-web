@@ -15,7 +15,7 @@
           <p>Con reconocidos ponentes de gran prestigio nacional e internacional.</p>
         </article>
 
-        <sponsors-block :type="SponsorType.Diamond"></sponsors-block>
+        <sponsors :type="SponsorType.Diamond"></sponsors>
 
         <header class="home-hero__header text-block">
           <h2 class="blue">
@@ -33,14 +33,14 @@
 import { defineComponent } from 'vue'
 import BtnNavDown from '~/components/BtnNavDown'
 import Logo from '~/components/Logo.vue'
+import Sponsors from '~/components/Sponsors'
 import { SponsorType } from '~/data/sponsors'
-import SponsorsBlock from '~/pages/index/components/SponsorsBlock'
 
 export default defineComponent({
   name: 'HomeHero',
   components: {
     Logo,
-    SponsorsBlock,
+    Sponsors,
     BtnNavDown
   },
   setup() {

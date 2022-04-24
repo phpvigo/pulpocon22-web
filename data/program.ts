@@ -124,5 +124,4 @@ const program: Program = {
   }
 }
 
-console.log(program)
 export default program

@@ -1,9 +1,9 @@
 <template>
-  <section id="2019" class="home-2019 section section--white section--bg-bottom">
+  <section id="talleres" class="home-workshops-preview section section--blue section--bg-200">
     <div class="container-fluid-900">
       <header class="section__header">
         <h2 class="section__title">
-          PulpoCon 19
+          Talleres
         </h2>
       </header>
       <div class="section__content">
@@ -24,6 +24,6 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'Home2019'
+  name: 'HomeWorkshopsPreview'
 })
 </script>
