@@ -1,8 +1,8 @@
 <template>
   <div>
-    <NuxtLayout name="default">
-      asasd
-      <!--      <NuxtPage/>-->
+    <NuxtLayout>
+      asasd APP
+      <NuxtPage/>
     </NuxtLayout>
   </div>
 </template>
