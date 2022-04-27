@@ -12,12 +12,22 @@
           Las entradas estarán disponibles en breve, pero si quieres ser el primero en enterarte cuando salgan a la
           venta apuntate y te avisaremos!.
         </p>
+        <p>
+          Además en esta edición organizamos un taller de CQRS impartido por Carlos Buenosvinos y Christian Soronellas
+          ¿Te lo vas a perder?
+        </p>
       </div>
       <footer class="section__footer">
         <a class="btn btn--contrast"
-           href="https://docs.google.com/forms/d/e/1FAIpQLScsYazTzaqii0uBmTW9MF8gfpAcfuC0MuTN3j7c-uDmKTh5uQ/viewform"
+           href="https://docs.google.com/forms/d/13RxrQ1WftYAGUJBnWIqIspmkN_CPVVSJT-pnhus8UFQ"
            target="_blank">
           Apúntate a la preventa
+        </a>
+
+        <a class="btn btn--contrast"
+           href="https://docs.google.com/forms/d/1APHhuxOySc_wnOIHOtzYKniX_Yun8OXSsq2ViWlhwH8/"
+           target="_blank">
+          Apúntate al taller CQRS
         </a>
       </footer>
     </div>

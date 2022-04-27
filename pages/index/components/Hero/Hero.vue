@@ -15,7 +15,7 @@
           <p>Con reconocidos ponentes de gran prestigio nacional e internacional.</p>
         </article>
 
-        <sponsors :type="SponsorType.Diamond"></sponsors>
+        <!--        <sponsors :type="SponsorType.Diamond"></sponsors>-->
 
         <header class="home-hero__header text-block">
           <h2 class="blue">
@@ -26,7 +26,6 @@
         <btn-nav-down color="red" to="/#tickets"></btn-nav-down>
       </div>
     </div>
-    <video autoplay class="home-hero__video" loop muted src="/video/pulpocon.m4v"></video>
   </section>
 </template>
 <script lang="ts">
