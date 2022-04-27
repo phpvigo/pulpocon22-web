@@ -35,7 +35,13 @@
     text-transform: uppercase;
   }
 
+  &__logos {
+    display: flex;
+    justify-content: center;
+  }
+
   &__link {
+    display: block;
     padding: 0 20px 15px 20px;
 
     .organizer--craftersvigo {

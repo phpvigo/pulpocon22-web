@@ -5,15 +5,18 @@
         <h3 class="event-organizer__title">
           Organizan
         </h3>
-        <a class="event-organizer__link event-organizer__link--craftersvigo" href="https://twitter.com/CraftersVigo">
-          <logo-crafters-vigo color="#222"></logo-crafters-vigo>
-        </a>
-        <a class="event-organizer__link event-organizer__link--aindustriosa" href="https://intranet.aindustriosa.org/">
-          <logo-industriosa color="#222"></logo-industriosa>
-        </a>
-        <a class="event-organizer__link event-organizer__link--vigotech" href="https://vigotech.org/">
-          <logo-vigo-tech color="#222"></logo-vigo-tech>
-        </a>
+        <div class="event-organizer__logos">
+          <a class="event-organizer__link event-organizer__link--craftersvigo" href="https://twitter.com/CraftersVigo">
+            <logo-crafters-vigo color="#222"></logo-crafters-vigo>
+          </a>
+          <a class="event-organizer__link event-organizer__link--aindustriosa"
+             href="https://intranet.aindustriosa.org/">
+            <logo-industriosa color="#222"></logo-industriosa>
+          </a>
+          <a class="event-organizer__link event-organizer__link--vigotech" href="https://vigotech.org/">
+            <logo-vigo-tech color="#222"></logo-vigo-tech>
+          </a>
+        </div>
 
       </div>
     </div>
