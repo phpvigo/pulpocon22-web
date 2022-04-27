@@ -41,7 +41,7 @@ export default defineNuxtConfig({
       }
     ],
     script: [
-      { src: '/public/libs/tarteaucitron/tarteaucitron.client.js' },
+      { src: '/libs/tarteaucitron/tarteaucitron.js' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
