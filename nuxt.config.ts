@@ -10,14 +10,14 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/scss/app.scss', '~/node_modules/@fortawesome/fontawesome-free/css/all.css'],
   meta: {
-    title: 'PulpoCon22',
+    title: 'PulpoCon22 - 1, 2 y 3 de Septiembre en Vigo 🐙',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: 'PulpoCon es la conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. Vigo, 1, 2 y 3 de Septiembre de 2022'
+        content: 'PulpoCon 🐙 es la conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. Vigo, 1, 2 y 3 de Septiembre de 2022'
       },
       {
         hid: 'og:title',
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         hid: 'og:description',
         property: 'og:description',
         content:
-          'PulpoCon es la conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. Vigo, 1, 2 y 3 de Septiembre de 2022'
+          'PulpoCon 🐙 es la conferencia que acercará el movimiento “crafter” y el “clean code” a la comunidad de desarrolladores de Galicia y su área de influencia mediante charlas y talleres.  Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado. Con reconocidos ponentes de gran prestigio nacional e internacional. Vigo, 1, 2 y 3 de Septiembre de 2022 '
       },
       {
         hid: 'og:image',
