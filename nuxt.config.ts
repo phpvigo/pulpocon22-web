@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt'
 const pkg = require('./package')
 
 export default defineNuxtConfig({
-  mode: 'universal',
+  mode: 'static',
   buildModules: ['@pinia/nuxt'],
   components: {
     dirs: []
