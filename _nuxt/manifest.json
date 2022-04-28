@@ -1,0 +1,160 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-3882fe6a.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/codigo-de-conducta/index.vue",
+      "pages/diversity/index.vue",
+      "pages/index/components/Follow/index.ts",
+      "pages/index/components/Hero/index.ts",
+      "pages/index/components/Home2019/index.ts",
+      "pages/index/components/Program/components/EventDay/index.ts",
+      "pages/index/components/Program/index.ts",
+      "pages/index/components/SponsorsBlock/index.ts",
+      "pages/index/components/Tickets/index.ts",
+      "pages/index/components/Venue/index.ts",
+      "pages/index/components/WorkshopsPreview/index.ts",
+      "pages/index/index.vue",
+      "pages/ponente/_id.vue",
+      "layouts/default.vue"
+    ],
+    "css": [
+      "entry.550a4811.css"
+    ],
+    "assets": [
+      "bg-white.013186c8.jpg",
+      "bg-blue.8f0e2909.jpg",
+      "bg-red.06ab8ede.jpg",
+      "fa-brands-400.404c746c.woff2",
+      "fa-brands-400.e523f49c.ttf",
+      "fa-regular-400.6a274e76.woff2",
+      "fa-regular-400.4e96a7e0.ttf",
+      "fa-solid-900.d76fb4e8.woff2",
+      "fa-solid-900.03f2986c.ttf",
+      "fa-v4compatibility.0db31bef.woff2",
+      "fa-v4compatibility.86a687cf.ttf",
+      "bg-hero.ca083e68.jpg",
+      "location02.b5b68b38.jpg"
+    ]
+  },
+  "pages/codigo-de-conducta/index.vue": {
+    "file": "index-533e46f0.mjs",
+    "src": "pages/codigo-de-conducta/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/diversity/index.vue": {
+    "file": "index-a271bf84.mjs",
+    "src": "pages/diversity/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/Follow/index.ts": {
+    "file": "index-fca6b685.mjs",
+    "src": "pages/index/components/Follow/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/Hero/index.ts": {
+    "file": "index-bc6cf9b1.mjs",
+    "src": "pages/index/components/Hero/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/Home2019/index.ts": {
+    "file": "index-fedd1118.mjs",
+    "src": "pages/index/components/Home2019/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/Program/components/EventDay/index.ts": {
+    "file": "index-b46b01b8.mjs",
+    "src": "pages/index/components/Program/components/EventDay/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/Program/index.ts": {
+    "file": "index-31730389.mjs",
+    "src": "pages/index/components/Program/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/SponsorsBlock/index.ts": {
+    "file": "index-d6826039.mjs",
+    "src": "pages/index/components/SponsorsBlock/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/Tickets/index.ts": {
+    "file": "index-73e48a52.mjs",
+    "src": "pages/index/components/Tickets/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/Venue/index.ts": {
+    "file": "index-293383db.mjs",
+    "src": "pages/index/components/Venue/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/components/WorkshopsPreview/index.ts": {
+    "file": "index-6fb1a6d3.mjs",
+    "src": "pages/index/components/WorkshopsPreview/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index/index.vue": {
+    "file": "index-2b73b336.mjs",
+    "src": "pages/index/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/ponente/_id.vue": {
+    "file": "_id-ae78d63b.mjs",
+    "src": "pages/ponente/_id.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/default.vue": {
+    "file": "default-79bd26ac.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "default.e8215c94.css"
+    ],
+    "assets": [
+      "bg-blue.8f0e2909.jpg",
+      "bg-red.06ab8ede.jpg"
+    ]
+  }
+}
