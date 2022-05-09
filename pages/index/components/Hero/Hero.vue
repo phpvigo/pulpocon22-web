@@ -15,7 +15,7 @@
           <p>Con reconocidos ponentes de gran prestigio nacional e internacional.</p>
         </article>
 
-        <!--        <sponsors :type="SponsorType.Diamond"></sponsors>-->
+        <sponsors :type="SponsorType.Diamond"></sponsors>
 
         <header class="home-hero__header text-block">
           <h2 class="blue">

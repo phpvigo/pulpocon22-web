@@ -1,80 +1,96 @@
 <template>
-  <article class="page-simple__wrapper">
-    <div class="container-fluid-900">
-      <header class="page-simple__header">
-        <h1 class="page-simple__title">Código de conducta</h1>
-      </header>
-      <div class="page-simple__content">
-        <p>Requerimos que todos los asistentes, ponentes, patrocinios y voluntariado de nuestra conferencia estén de
-          acuerdo con el siguiente código de conducta.</p>
+  <div>
+    <article class="page-simple__wrapper">
+      <div class="container-fluid-900">
+        <header class="page-simple__header">
+          <h1 class="page-simple__title">Código de conducta</h1>
+        </header>
+        <div class="page-simple__content">
+          <p>Requerimos que todos los asistentes, ponentes, patrocinios y voluntariado de nuestra conferencia estén de
+            acuerdo con el siguiente código de conducta.</p>
 
-        <p>La organización se encargará de que se cumpla durante las reuniones y eventos, esperamos la colaboración de
-          todos los participantes para ayudar a construir un entorno seguro para todo el mundo.</p>
+          <p>La organización se encargará de que se cumpla durante las reuniones y eventos, esperamos la colaboración de
+            todos los participantes para ayudar a construir un entorno seguro para todo el mundo.</p>
 
-        <h3>La versión rápida</h3>
-        <p>Queremos que la conferencia sea una experiencia libre de acoso para todo el mundo sin importar su género, su
-          identidad o expresión de género, edad, orientación sexual, discapacidad, aspecto físico, raza o religión. No
-          toleraremos el acoso de ningún tipo a ningún participante.</p>
-        <p>El lenguaje o las imágenes sexuales no son apropiadas para el evento, incluyendo las charlas, Twitter y
-          cualquier otro medio de comunicación.</p>
+          <h3>La versión rápida</h3>
+          <p>Queremos que la conferencia sea una experiencia libre de acoso para todo el mundo sin importar su género,
+            su
+            identidad o expresión de género, edad, orientación sexual, discapacidad, aspecto físico, raza o religión. No
+            toleraremos el acoso de ningún tipo a ningún participante.</p>
+          <p>El lenguaje o las imágenes sexuales no son apropiadas para el evento, incluyendo las charlas, Twitter y
+            cualquier otro medio de comunicación.</p>
 
-        <p>Los participantes que violen estas reglas podrán ser sancionados o expulsados de la conferencia a discreción
-          de
-          los organizadores.</p>
+          <p>Los participantes que violen estas reglas podrán ser sancionados o expulsados de la conferencia a
+            discreción
+            de
+            los organizadores.</p>
 
-        <h3>La versión no tan rápida</h3>
-        <p>Incluímos como acoso los comentarios verbales ofensivos relacionados con el género, la identidad o expresión
-          de
-          género, edad, orientación sexual, discapacidad, apariencia física, raza, religión, imágenes sexuales en
-          espacios
-          públicos, intimidación deliberada, acecho, persecución, el acoso con fotografías o vídeos, la interrupción
-          sostenida de charlas u otros eventos, el contacto físico inapropiado y la atención sexual indeseada.</p>
+          <h3>La versión no tan rápida</h3>
+          <p>Incluímos como acoso los comentarios verbales ofensivos relacionados con el género, la identidad o
+            expresión
+            de
+            género, edad, orientación sexual, discapacidad, apariencia física, raza, religión, imágenes sexuales en
+            espacios
+            públicos, intimidación deliberada, acecho, persecución, el acoso con fotografías o vídeos, la interrupción
+            sostenida de charlas u otros eventos, el contacto físico inapropiado y la atención sexual indeseada.</p>
 
-        <p>Los patrocinios también se encuentran sujetos a esta política. En concreto, los patrocinadores no deben usar
-          imágenes, actividades u otro material sexualizado. El personal (incluyendo los voluntarios) no debe utilizar
-          ropa/uniformes/disfraces sexualizados, o crear de ninguna otra forma un entorno sexualizado.</p>
+          <p>Los patrocinios también se encuentran sujetos a esta política. En concreto, los patrocinadores no deben
+            usar
+            imágenes, actividades u otro material sexualizado. El personal (incluyendo los voluntarios) no debe utilizar
+            ropa/uniformes/disfraces sexualizados, o crear de ninguna otra forma un entorno sexualizado.</p>
 
-        <p>Si un participante tiene un comportamiento de acoso, los organizadores de la conferencia podrán tomar
-          cualquier
-          acción que consideren apropiada, incluyendo advertir al infractor o su expulsión de la reunión o
-          conferencia.</p>
+          <p>Si un participante tiene un comportamiento de acoso, los organizadores de la conferencia podrán tomar
+            cualquier
+            acción que consideren apropiada, incluyendo advertir al infractor o su expulsión de la reunión o
+            conferencia.</p>
 
-        <p>Si estás siendo acosado, ves a alguien que lo está siendo o tienes alguna otra preocupación, por favor
-          contacta
-          con algún miembro de la organización inmediatamente.</p>
+          <p>Si estás siendo acosado, ves a alguien que lo está siendo o tienes alguna otra preocupación, por favor
+            contacta
+            con algún miembro de la organización inmediatamente.</p>
 
-        <p>Los miembros de la organización estarán encantados de ayudar a los participantes a contactar con la seguridad
-          del sitio o la policía local, proveer escolta o asistir de otra manera para ayudar a quienes están siendo
-          acosados a sentirse seguros durante la conferencia.</p>
-        <p>Valoramos tu asistencia. Esperamos que los participantes sigan estas reglas durante la conferencia.</p>
+          <p>Los miembros de la organización estarán encantados de ayudar a los participantes a contactar con la
+            seguridad
+            del sitio o la policía local, proveer escolta o asistir de otra manera para ayudar a quienes están siendo
+            acosados a sentirse seguros durante la conferencia.</p>
+          <p>Valoramos tu asistencia. Esperamos que los participantes sigan estas reglas durante la conferencia.</p>
 
-        <p>Source and credit: <a href="https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md">https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md</a>
-        </p>
+          <p>Source and credit: <a href="https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md">https://github.com/gpul-labs/labs2017/blob/master/docs/codigodeconducta.md</a>
+          </p>
 
-        <p>Original source and credit: <a href="http://2012.jsconf.us/#/about & The Ada Initiative">http://2012.jsconf.us/#/about</a>
-        </p>
+          <p>Original source and credit: <a href="http://2012.jsconf.us/#/about & The Ada Initiative">http://2012.jsconf.us/#/about</a>
+          </p>
 
-        <p>Please help by translating or improving: <a href="http://github.com/leftlogic/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a>
-        </p>
+          <p>Please help by translating or improving: <a href="http://github.com/leftlogic/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a>
+          </p>
 
-        <p>This work is licensed under a Creative Commons Attribution 3.0 Unported License</p>
+          <p>This work is licensed under a Creative Commons Attribution 3.0 Unported License</p>
 
+        </div>
       </div>
-    </div>
-  </article>
+    </article>
+  </div>
 </template>
 <script lang="ts">
 import { useHead } from '@vueuse/head'
 import { defineComponent } from 'vue'
+import { SponsorType } from '~/data/sponsors'
+import SponsorsBlock from '~/pages/index/components/SponsorsBlock'
 
 export default defineComponent({
   name: 'CodeOfConduct',
+  components: {
+    SponsorsBlock
+  },
   setup() {
     useHead({
       bodyAttrs: {
         class: 'page-simple page-code-of-conduct'
       }
     })
+
+    return {
+      SponsorType
+    }
   }
 })
 </script>
