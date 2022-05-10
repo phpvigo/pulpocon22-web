@@ -18,7 +18,7 @@ const sponsors: SponsorGroups = {
     {
       name: 'Nextail',
       logo: '/i/sponsors/nextail.svg',
-      link: 'https://nextaillabs.recruitee.com/'
+      link: 'https://bit.ly/PulpoCon'
     },
     // {
     //   name: 'Twilio',
