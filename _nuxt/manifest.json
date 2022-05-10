@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-239fddb1.mjs",
+    "file": "entry-f50fa21b.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -39,7 +39,7 @@
     ]
   },
   "pages/codigo-de-conducta/index.vue": {
-    "file": "index-81d9ffbd.mjs",
+    "file": "index-8cced254.mjs",
     "src": "pages/codigo-de-conducta/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
     ]
   },
   "pages/diversity/index.vue": {
-    "file": "index-3fb3a8a2.mjs",
+    "file": "index-dcbc8387.mjs",
     "src": "pages/diversity/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -55,7 +55,7 @@
     ]
   },
   "pages/index/components/Follow/index.ts": {
-    "file": "index-9d15712a.mjs",
+    "file": "index-9eef2b69.mjs",
     "src": "pages/index/components/Follow/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -63,7 +63,7 @@
     ]
   },
   "pages/index/components/Hero/index.ts": {
-    "file": "index-981eb746.mjs",
+    "file": "index-eef3ada9.mjs",
     "src": "pages/index/components/Hero/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -71,7 +71,7 @@
     ]
   },
   "pages/index/components/Home2019/index.ts": {
-    "file": "index-2144e4d9.mjs",
+    "file": "index-43b35f22.mjs",
     "src": "pages/index/components/Home2019/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -79,7 +79,7 @@
     ]
   },
   "pages/index/components/Program/components/EventDay/index.ts": {
-    "file": "index-7d7be020.mjs",
+    "file": "index-b04ebb23.mjs",
     "src": "pages/index/components/Program/components/EventDay/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -87,7 +87,7 @@
     ]
   },
   "pages/index/components/Program/index.ts": {
-    "file": "index-805ec0c1.mjs",
+    "file": "index-6ce93e9a.mjs",
     "src": "pages/index/components/Program/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -95,7 +95,7 @@
     ]
   },
   "pages/index/components/SponsorsBlock/index.ts": {
-    "file": "index-78fbbe81.mjs",
+    "file": "index-dcab8e32.mjs",
     "src": "pages/index/components/SponsorsBlock/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -103,7 +103,7 @@
     ]
   },
   "pages/index/components/Tickets/index.ts": {
-    "file": "index-b536a028.mjs",
+    "file": "index-68146110.mjs",
     "src": "pages/index/components/Tickets/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -111,7 +111,7 @@
     ]
   },
   "pages/index/components/Venue/index.ts": {
-    "file": "index-252068d8.mjs",
+    "file": "index-ca64e0b6.mjs",
     "src": "pages/index/components/Venue/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -119,7 +119,7 @@
     ]
   },
   "pages/index/components/WorkshopsPreview/index.ts": {
-    "file": "index-37efe51c.mjs",
+    "file": "index-b4f33bc3.mjs",
     "src": "pages/index/components/WorkshopsPreview/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -127,7 +127,7 @@
     ]
   },
   "pages/index/index.vue": {
-    "file": "index-faa16f18.mjs",
+    "file": "index-2a863d3f.mjs",
     "src": "pages/index/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -135,7 +135,7 @@
     ]
   },
   "pages/ponente/_id.vue": {
-    "file": "_id-e3573764.mjs",
+    "file": "_id-e635f3fd.mjs",
     "src": "pages/ponente/_id.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -143,7 +143,7 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-c1f916cd.mjs",
+    "file": "default-200cf859.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
