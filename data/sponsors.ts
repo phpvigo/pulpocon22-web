@@ -27,7 +27,13 @@ const sponsors: SponsorGroups = {
     // }
   ],
   [SponsorType.Gold]: [],
-  [SponsorType.Bronze]: [],
+  [SponsorType.Bronze]: [
+    {
+      name: 'Hack A Boss',
+      logo: '/i/sponsors/hackaboss.png',
+      link: 'https://www.hackaboss.com/?origen=pulpocon&utm_medium=web'
+    },
+  ],
   [SponsorType.Supporter]: []
 }
 

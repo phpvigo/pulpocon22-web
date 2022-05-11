@@ -1,5 +1,8 @@
 <template>
   <section id="2019" class="home-2019 section section--white section--bg-bottom">
+
+    <sponsors class="mb-3" :type="SponsorType.Bronze"></sponsors>
+
     <div class="container-fluid-900">
       <header class="section__header">
         <h2 class="section__title">
@@ -22,8 +25,18 @@
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Sponsors from '~/components/Sponsors'
+import { SponsorType } from '~/data/sponsors'
 
 export default defineComponent({
-  name: 'Home2019'
+  name: 'Home2019',
+  components: {
+    Sponsors
+  },
+  setup() {
+    return {
+      SponsorType
+    }
+  }
 })
 </script>

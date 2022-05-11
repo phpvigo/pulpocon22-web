@@ -21,4 +21,12 @@
       flex: 0 1 calc(33% - 15px);
     }
   }
+
+  &--bronze {
+    .sponsor {
+      width: 100px;
+      max-width: 100%;
+      flex: 0 1 calc(33% - 15px);
+    }
+  }
 }
