@@ -1,5 +1,5 @@
 <template>
-  <div :id="type" class="sponsors-block section">
+  <div :id="type" class="sponsors-block section section--white">
     <div class="container-fluid-1440">
       <header v-if="title" class="section__title">{{ title }}</header>
       <div class="section__content">

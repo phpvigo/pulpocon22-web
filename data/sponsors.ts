@@ -26,12 +26,18 @@ const sponsors: SponsorGroups = {
     //   link: 'https://www.twilio.com/'
     // }
   ],
-  [SponsorType.Gold]: [],
+  [SponsorType.Gold]: [
+    {
+      name: 'Boardfy',
+      logo: '/i/sponsors/boardfy.svg',
+      link: 'https://www.boardfy.com/?utm_origin=pulpocon&utm_medium=web'
+    },
+  ],
   [SponsorType.Bronze]: [
     {
       name: 'Hack A Boss',
       logo: '/i/sponsors/hackaboss.png',
-      link: 'https://www.hackaboss.com/?origen=pulpocon&utm_medium=web'
+      link: 'https://www.hackaboss.com/?utm_origin=pulpocon&utm_medium=web'
     },
   ],
   [SponsorType.Supporter]: []

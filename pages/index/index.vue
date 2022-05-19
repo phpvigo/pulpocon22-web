@@ -3,6 +3,7 @@
     <home-hero></home-hero>
     <!--    <sponsors-block :type="SponsorType.Diamond"></sponsors-block>-->
     <home-tickets></home-tickets>
+    <sponsors-block :type="SponsorType.Gold"></sponsors-block>
     <home-venue></home-venue>
     <home-follow></home-follow>
     <home-2019></home-2019>
