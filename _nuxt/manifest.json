@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-84b8c714.mjs",
+    "file": "entry-d6913ec9.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -20,7 +20,7 @@
       "layouts/default.vue"
     ],
     "css": [
-      "entry.75f61d1d.css"
+      "entry.5c3117c7.css"
     ],
     "assets": [
       "bg-white.013186c8.jpg",
@@ -39,7 +39,7 @@
     ]
   },
   "pages/codigo-de-conducta/index.vue": {
-    "file": "index-62b7ee36.mjs",
+    "file": "index-88887114.mjs",
     "src": "pages/codigo-de-conducta/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -47,7 +47,7 @@
     ]
   },
   "pages/diversity/index.vue": {
-    "file": "index-a4bccf8d.mjs",
+    "file": "index-4a86070b.mjs",
     "src": "pages/diversity/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -55,7 +55,7 @@
     ]
   },
   "pages/index/components/Follow/index.ts": {
-    "file": "index-5dfd626a.mjs",
+    "file": "index-a260f0dd.mjs",
     "src": "pages/index/components/Follow/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -63,7 +63,7 @@
     ]
   },
   "pages/index/components/Hero/index.ts": {
-    "file": "index-a73da5c7.mjs",
+    "file": "index-cfddf22f.mjs",
     "src": "pages/index/components/Hero/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -71,7 +71,7 @@
     ]
   },
   "pages/index/components/Home2019/index.ts": {
-    "file": "index-b2267701.mjs",
+    "file": "index-8fe52ac5.mjs",
     "src": "pages/index/components/Home2019/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -79,7 +79,7 @@
     ]
   },
   "pages/index/components/Program/components/EventDay/index.ts": {
-    "file": "index-b184e55a.mjs",
+    "file": "index-db6e16ab.mjs",
     "src": "pages/index/components/Program/components/EventDay/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -87,7 +87,7 @@
     ]
   },
   "pages/index/components/Program/index.ts": {
-    "file": "index-dd91745d.mjs",
+    "file": "index-4170c955.mjs",
     "src": "pages/index/components/Program/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -95,7 +95,7 @@
     ]
   },
   "pages/index/components/SponsorsBlock/index.ts": {
-    "file": "index-1265f97e.mjs",
+    "file": "index-8d00cb43.mjs",
     "src": "pages/index/components/SponsorsBlock/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -103,7 +103,7 @@
     ]
   },
   "pages/index/components/Tickets/index.ts": {
-    "file": "index-339d7345.mjs",
+    "file": "index-0377a916.mjs",
     "src": "pages/index/components/Tickets/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -111,7 +111,7 @@
     ]
   },
   "pages/index/components/Venue/index.ts": {
-    "file": "index-322f6b0c.mjs",
+    "file": "index-8a8eba69.mjs",
     "src": "pages/index/components/Venue/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -119,7 +119,7 @@
     ]
   },
   "pages/index/components/WorkshopsPreview/index.ts": {
-    "file": "index-7a673269.mjs",
+    "file": "index-5d2080fc.mjs",
     "src": "pages/index/components/WorkshopsPreview/index.ts",
     "isDynamicEntry": true,
     "imports": [
@@ -127,7 +127,7 @@
     ]
   },
   "pages/index/index.vue": {
-    "file": "index-a69b17f5.mjs",
+    "file": "index-7c389ded.mjs",
     "src": "pages/index/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -135,7 +135,7 @@
     ]
   },
   "pages/ponente/_id.vue": {
-    "file": "_id-d9e4e2a9.mjs",
+    "file": "_id-6b79f5e0.mjs",
     "src": "pages/ponente/_id.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -143,7 +143,7 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-79b34979.mjs",
+    "file": "default-7f3fa682.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
