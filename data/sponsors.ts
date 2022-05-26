@@ -32,6 +32,11 @@ const sponsors: SponsorGroups = {
       logo: '/i/sponsors/boardfy.svg',
       link: 'https://www.boardfy.com/?utm_origin=pulpocon&utm_medium=web'
     },
+    {
+      name: 'Gradiant',
+      logo: '/i/sponsors/gradiant.png',
+      link: 'https://www.gradiant.org/?utm_origin=pulpocon&utm_medium=web'
+    },
   ],
   [SponsorType.Bronze]: [
     {
