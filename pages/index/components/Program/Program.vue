@@ -1,6 +1,7 @@
 <template>
   <section id="program" class="home-program section section--white section--bg-200">
     <div class="container-fluid-900">
+      <sponsors :type="SponsorType.Gold"></sponsors>
       <header class="section__header">
         <h2 class="section__title">
           Programa
@@ -22,14 +23,17 @@
 <script lang="ts">
 import program from '@/data/program'
 import { defineComponent } from 'vue'
+import Sponsors from '~/components/Sponsors'
+import { SponsorType } from '~/data/sponsors'
 import EventDay from '~/pages/index/components/Program/components/EventDay'
 
 export default defineComponent({
   name: 'Program',
-  components: { EventDay },
+  components: { EventDay, Sponsors },
   setup() {
     return {
-      program
+      program,
+      SponsorType
     }
   }
 })

@@ -9,13 +9,13 @@ const menu: MenuItem[] = [
     "title": "Home"
   },
   {
+    "link": "/#program",
+    "title": "Programa"
+  },
+  {
     "link": "/#location",
     "title": "Ubicación"
   },
-  // {
-  //   "link": "/#program",
-  //   "title": "Programa"
-  // },
   {
     "link": "/codigo-de-conducta",
     "title": "Código de conducta"

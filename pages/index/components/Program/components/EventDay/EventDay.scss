@@ -1,4 +1,5 @@
 @import "~/assets/scss/settings/variables";
+@import "~/assets/scss/mixins";
 
 .event-day {
   &__legend {
@@ -69,20 +70,40 @@
 
   }
 
+  a {
+    @include underline-effect_inverse($gray);
+  }
+
   &__title {
     color: $gray;
     font-weight: bold;
   }
 
+  &__speakers {
+    font-size: 18px;
+  }
+
   &--talk {
     .schedule__title {
-      color: $red;
+      &, a {
+        color: $red;
+      }
+
+      a {
+        @include underline-effect_inverse($red);
+      }
     }
   }
 
   &--workshop {
     .schedule__title {
-      color: #{darken($blue, 20)};
+      &, a {
+        color: #{darken($blue, 20)};
+      }
+
+      a {
+        @include underline-effect_inverse($blue);
+      }
     }
   }
 }

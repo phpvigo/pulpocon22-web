@@ -25,10 +25,10 @@
         <div v-for="track in day.tracks" :class="['col-xs-12', day.tracks.length > 1 ? 'col-sm-6' : '']">
           <div class="event-day__track">
             <div class="event-day__track-name">
-              {{ track.name }}
+              {{ track.name || '&nbsp;' }}
             </div>
             <div class="schedule-list">
-              <div
+              <article
                   v-for="(item, index) in track.schedule"
                   :key="`${track.name}-${index}`"
                   :class="['schedule', `schedule--${item.type}`]"
@@ -41,17 +41,13 @@
                 </div>
                 <div class="schedule__details">
                   <div class="schedule__title">
-                    {{ item.title }}
+                    {{ item.title || item.type }}
                   </div>
-                  <ul class="schedule__speakers">
-                    <li v-for="id in item.speakers" class="schedule__speaker">
-                      <nuxt-link :to="`/ponente/${id}`">
-                        {{ id }}
-                      </nuxt-link>
-                    </li>
-                  </ul>
+                  <h6 class="schedule__speakers" v-if="item.speaker">
+                    {{ item.speaker }}
+                  </h6>
                 </div>
-              </div>
+              </article>
             </div>
           </div>
         </div>

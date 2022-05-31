@@ -1,5 +1,9 @@
 import { defineNuxtConfig } from 'nuxt'
 
+import { Mode } from 'vite-plugin-markdown'
+
+const mdPlugin = require('vite-plugin-markdown')
+
 const pkg = require('./package')
 
 export default defineNuxtConfig({
@@ -46,13 +50,14 @@ export default defineNuxtConfig({
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   loading: { color: '#3DCDF9' },
-  plugins: [
-    // { src: '~/plugins/tarteaucitron.client.js', ssr: false },
-  ],
+  plugins: [],
   build: {
     extractCSS: true,
   },
   vite: {
+    plugins: [mdPlugin({
+      mode: Mode.VUE
+    })],
     assetsInclude: ['**/*.m4v'],
   }
 })
