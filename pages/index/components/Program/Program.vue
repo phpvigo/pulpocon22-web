@@ -1,5 +1,5 @@
 <template>
-  <section id="program" class="home-program section section--white section--bg-200">
+  <section id="program" class="home-program section section--white">
     <div class="container-fluid-900">
       <sponsors :type="SponsorType.Gold"></sponsors>
       <header class="section__header">
@@ -8,16 +8,12 @@
         </h2>
       </header>
       <div class="section__content">
-        <tabs :options="{ useUrlFragment: false, defaultTabHash: 'dia-3'  }">
-          <tab v-for="(eventDay, id) in program" :id="id" :key="id" :name="eventDay.title">
-            <event-day :day="eventDay"/>
-          </tab>
-        </tabs>
-
-
+        <article :class="['program-day', `program-day--${id}`]" v-for="(eventDay, id) in program" :key="id">
+          <h3 class="program-day__title heading-4">{{ eventDay.title }}</h3>
+          <event-day :day="eventDay"/>
+        </article>
       </div>
     </div>
-
   </section>
 </template>
 <script lang="ts">
@@ -29,7 +25,11 @@ import EventDay from '~/pages/index/components/Program/components/EventDay'
 
 export default defineComponent({
   name: 'Program',
-  components: { EventDay, Sponsors },
+  ssr: false,
+  components: {
+    EventDay,
+    Sponsors
+  },
   setup() {
     return {
       program,

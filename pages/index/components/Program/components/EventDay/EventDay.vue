@@ -6,19 +6,6 @@
       </div>
     </header>
 
-    <aside>
-      <ul class="event-day__legend">
-        <li class="event-day__legend-item event-day__legend--talk">
-          <span></span> Charla
-        </li>
-        <li class="event-day__legend-item event-day__legend--workshop">
-          <span></span> Taller
-        </li>
-        <li class="event-day__legend-item event-day__legend--break">
-          <span></span> Densanso
-        </li>
-      </ul>
-    </aside>
 
     <div class="event-day__tracks">
       <div class="grid-row">

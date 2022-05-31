@@ -1,3 +1,4 @@
+.heading-2,
 h2 {
   font-size: 3em;
   @include media($xs) {
@@ -5,8 +6,16 @@ h2 {
   }
 }
 
+.heading-3,
 h3 {
   font-size: 2em;
+}
+
+.heading-4 {
+  font-size: 1.5em;
+  @include media($xs) {
+    font-size: 1.2em;
+  }
 }
 
 .page-title {

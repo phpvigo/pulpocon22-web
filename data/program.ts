@@ -49,7 +49,7 @@ const program: Program = {
     title: 'Jueves 1',
     tracks: [
       {
-        name: 'Track Talleres',
+        name: 'Taller CQRS',
         schedule: [
           { time: ['08:30', '09:00'], title: 'Badge pickup & Desayuno' },
           {
@@ -59,6 +59,12 @@ const program: Program = {
             speaker: 'Carlos Buenosvinos & Christian Soronellas'
           },
           { time: ['12:00', '12:30'], title: 'Descanso' },
+
+        ]
+      },
+      {
+        name: '',
+        schedule: [
           {
             time: ['12:30', '14:00'],
             type: Type.Workshop,
@@ -153,7 +159,5 @@ const program: Program = {
     ]
   }
 }
-
-console.log(program)
 
 export default program

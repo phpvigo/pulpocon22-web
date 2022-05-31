@@ -1,5 +1,7 @@
-.home-program {
+@import "~/assets/scss/settings/variables";
+@import "~/assets/scss/mixins";
 
+.home-program {
   .tabs-component-tab {
     &:nth-child(3) {
       font-weight: bold;
@@ -13,6 +15,61 @@
   .conference-day {
     a {
       color: var(--red)
+    }
+  }
+
+  .program-day {
+    margin-bottom: 40px;
+
+    &__title {
+      margin-bottom: 30px;
+      position: relative;
+      display: flex;
+
+      &:before,
+      &:after {
+        display: block;
+        content: '';
+        background: var(--red);
+      }
+
+      &:before {
+        width: 50px;
+        margin-right: 15px;
+        background: var(--red);
+        @media (max-width: 768px) {
+          width: 10px;
+        }
+      }
+
+      &:after {
+        flex-grow: 1;
+        margin-left: 15px;
+        font-size: 18px;
+        text-align: right;
+        padding-right: 15px;
+        color: $white;
+        content: 'Conferencia';
+
+        @media (max-width: 768px) {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &--jueves-1,
+    &--viernes-2 {
+      .program-day__title {
+        &:before,
+        &:after {
+          background-color: var(--blue)
+        }
+
+        &:after {
+          color: $text-color;
+          content: 'Talleres';
+        }
+      }
     }
   }
 }
