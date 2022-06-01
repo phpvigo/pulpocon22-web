@@ -116,14 +116,14 @@ const program: Program = {
             time: ['12:30', '14:00'],
             type: Type.Workshop,
             title: 'Monitorizando nuestras aplicaciones',
-            speaker: 'Paz González De la Fuente '
+            speaker: 'Lucía Díaz Rodríguez'
           },
           { time: ['14:00', '15:00'], title: 'Comida' },
           {
             time: ['15:00', '17:00'],
             type: Type.Workshop,
             title: 'Estrategias de despliegue',
-            speaker: 'Lucía Díaz Rodríguez'
+            speaker: 'Paz González De la Fuente'
           },
         ]
       }
