@@ -1,7 +1,9 @@
 <template>
   <section id="program" class="home-program section section--white">
-    <div class="container-fluid-900">
+    <div class="container-fluid-1440">
       <sponsors :type="SponsorType.Gold"></sponsors>
+    </div>
+    <div class="container-fluid-900">
       <header class="section__header">
         <h2 class="section__title">
           Programa

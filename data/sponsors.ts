@@ -37,6 +37,11 @@ const sponsors: SponsorGroups = {
       logo: '/i/sponsors/gradiant.png',
       link: 'https://www.gradiant.org/?utm_origin=pulpocon&utm_medium=web'
     },
+    {
+      name: 'benshi.ai',
+      logo: '/i/sponsors/benshi_ai.svg',
+      link: 'https://www.benshi.ai/?utm_origin=pulpocon&utm_medium=web'
+    },
   ],
   [SponsorType.Bronze]: [
     {
