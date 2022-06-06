@@ -9,6 +9,9 @@ const pkg = require('./package')
 export default defineNuxtConfig({
   mode: 'static',
   buildModules: ['@pinia/nuxt'],
+  modules: [
+    '@nuxt/content'
+  ],
   components: {
     dirs: []
   },

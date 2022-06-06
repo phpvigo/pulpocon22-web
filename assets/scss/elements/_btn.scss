@@ -38,4 +38,15 @@
       background: var(--blue);
     }
   }
+
+  &--red {
+    border-color: var(--red);
+    background: rgba($red, 0.65);
+    color: var(--text-contrast-color);
+
+    &:hover {
+      color: var(--text-contrast-color);
+      background: var(--red);
+    }
+  }
 }
