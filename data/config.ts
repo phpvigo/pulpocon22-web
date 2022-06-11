@@ -1,5 +1,5 @@
 const config = {
-  "ticketsUrl": "https://tickets.pulpocon.es"
+  "ticketsUrl": "https://entradas.pulpocon.es"
 }
 
 export default config

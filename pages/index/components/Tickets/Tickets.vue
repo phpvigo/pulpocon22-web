@@ -9,38 +9,31 @@
       </header>
       <div class="section__content">
         <p>
-          Las entradas estarán disponibles en breve, pero si quieres ser el primero en enterarte cuando salgan a la
-          venta apuntate y te avisaremos!.
-        </p>
-        <p>
-          Además en esta edición organizamos un taller de CQRS impartido por Carlos Buenosvinos y Christian Soronellas
-          ¿Te lo vas a perder?
+          Hasta el 📅 30 de Junio estamos en Super Early Bird 🐦, por lo que podrás comprar tus entradas 🎟️ al precio
+          más reducido. Desde sólo 20€ tendrás acceso a las charlas de ponentes muy top 🔝
         </p>
       </div>
       <footer class="section__footer">
         <a class="btn btn--contrast"
-           href="https://docs.google.com/forms/d/13RxrQ1WftYAGUJBnWIqIspmkN_CPVVSJT-pnhus8UFQ"
+           :href="config.ticketsUrl"
            target="_blank">
-          Apúntate a la preventa
-        </a>
-
-        <a class="btn btn--contrast"
-           href="https://docs.google.com/forms/d/1APHhuxOySc_wnOIHOtzYKniX_Yun8OXSsq2ViWlhwH8/"
-           target="_blank">
-          Apúntate al taller CQRS
+          Compra ya tus entradas
         </a>
       </footer>
     </div>
   </section>
 </template>
 <script lang="ts">
+import config from '@/data/config'
 import { defineComponent } from 'vue'
 
 
 export default defineComponent({
   name: 'HomeTickets',
   setup() {
-    return {}
+    return {
+      config
+    }
   }
 })
 </script>

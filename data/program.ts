@@ -13,6 +13,7 @@ export interface ScheduleTalk extends ScheduleBase {
   title: string
   time: [string, string]
   speaker: string
+  link: string
 }
 
 export interface ScheduleWorkshop extends ScheduleBase {
@@ -20,6 +21,7 @@ export interface ScheduleWorkshop extends ScheduleBase {
   time: [string, string]
   title: string
   speaker: string
+  link: string
 }
 
 export interface ScheduleGeneric extends ScheduleBase {
@@ -40,6 +42,7 @@ export interface ProgramDay {
   title: string
   description?: string
   tracks: Track[]
+
 }
 
 export type Program = Record<string, ProgramDay>
@@ -95,7 +98,8 @@ const program: Program = {
             time: ['12:30', '14:00'],
             type: Type.Workshop,
             title: 'TCR: Test && Commit || Revert',
-            speaker: 'Isabel Garrido & Verónica Flores'
+            speaker: 'Isabel Garrido & Verónica Flores',
+            // link: '/workshop-tcr-test-commit-revert'
           },
           { time: ['14:00', '15:00'], title: 'Comida' },
           { time: ['15:00', '17:00'], type: Type.Workshop, title: 'Taller', speaker: 'Gemma Jorba' },
@@ -138,7 +142,7 @@ const program: Program = {
         schedule: [
           { time: ['09:00', '10:00'], title: 'Badge pickup & Desayuno' },
           { time: ['10:00', '10:10'], title: 'Apertura' },
-          { time: ['10:10', '10:50'], type: Type.Talk, title: 'TBC', speaker: 'TBC' },
+          { time: ['10:10', '10:50'], type: Type.Talk, title: 'TBC', speaker: 'Ana Fernandez Del Rio' },
           { time: ['11:00', '10:40'], type: Type.Talk, title: 'TBC', speaker: 'TBC' },
           { time: ['11:50', '12:30'], title: 'Descanso' },
           { time: ['12:30', '13:10'], type: Type.Talk, title: 'TBC', speaker: 'Paula Julve' },

@@ -28,7 +28,12 @@
                 </div>
                 <div class="schedule__details">
                   <div class="schedule__title">
-                    {{ item.title || item.type }}
+                    <nuxt-link :to="item.link" v-if="item.link">
+                      {{ item.title || item.type }}
+                    </nuxt-link>
+                    <template v-else>
+                      {{ item.title || item.type }}
+                    </template>
                   </div>
                   <h6 class="schedule__speakers" v-if="item.speaker">
                     {{ item.speaker }}

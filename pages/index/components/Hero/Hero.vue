@@ -13,6 +13,8 @@
           <p>Técnicas, arquitecturas y modelos que fomentan mejores profesionales más allá del lenguaje utilizado.</p>
 
           <p>Con reconocidos ponentes de gran prestigio nacional e internacional.</p>
+
+          <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="link--blue">Compra ya tus entradas</a>
         </article>
 
         <sponsors :type="SponsorType.Diamond"></sponsors>
@@ -29,6 +31,7 @@
   </section>
 </template>
 <script lang="ts">
+import config from '@/data/config'
 import { defineComponent } from 'vue'
 import BtnNavDown from '~/components/BtnNavDown'
 import Logo from '~/components/Logo.vue'
@@ -44,6 +47,7 @@ export default defineComponent({
   },
   setup() {
     return {
+      config,
       SponsorType
     }
   }

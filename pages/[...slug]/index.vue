@@ -22,7 +22,11 @@
         <ContentRenderer :value="doc"/>
       </div>
       <footer class="page-talk__footer">
-        <a :href="config.ticketsUrl" target="_blank" class="btn btn--red">
+        <nuxt-link to="/#program" class="btn">
+          Programa
+        </nuxt-link>
+
+        <a v-if="config.ticketsUrl" :href="config.ticketsUrl" target="_blank" class="btn btn--red">
           Comprar entradas
         </a>
       </footer>

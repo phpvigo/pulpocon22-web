@@ -15,6 +15,7 @@
   &__title-wrapper {
     align-content: bottom;
     align-items: flex-end;
+    padding-bottom: 20px;
   }
 
   &__title {
@@ -29,12 +30,17 @@
 
   &__image-wrapper {
     display: flex;
-    align-items: bottom;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
     justify-content: flex-end;
   }
 
   &__image {
-    max-width: 300px;
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    display: block;
   }
 
   &__footer {

@@ -56,5 +56,13 @@
   a {
     color: $red;
     @include a($red);
+
+    &.link--blue {
+      color: $blue;
+      @include a($blue);
+    }
+
   }
+
+
 }
