@@ -41,6 +41,11 @@ const sponsors: SponsorGroups = {
       name: 'benshi.ai',
       logo: '/i/sps/benshi_ai.svg',
       link: 'https://www.benshi.ai/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'SiteGround',
+      logo: '/i/sps/siteground.svg',
+      link: 'https://www.siteground.es/?utm_origin=pulpocon&utm_medium=web'
     }
   ],
   [SponsorType.Bronze]: [
