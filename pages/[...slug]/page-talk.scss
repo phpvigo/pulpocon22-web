@@ -1,21 +1,37 @@
 .page-talk {
+  min-height: calc(100vh - 200px);
+
   &__header {
     padding-top: 100px;
-    background: var(--red) url(../assets/i/bg-red.jpg) no-repeat;
-    background-size: cover;
-  }
 
-  &--workshop {
-    .page-talk__header {
-      background: var(--blue) url(../assets/i/bg-blue.jpg) no-repeat;
+    .grid-row {
+      padding-top: 30px;
+      background: var(--red) url(../../assets/i/bg-red.jpg) no-repeat;
       background-size: cover;
     }
   }
 
+  &--workshop {
+    .page-talk__header {
+
+      .grid-row {
+        background: var(--blue) url(../../assets/i/bg-blue.jpg) no-repeat;
+        background-size: cover;
+      }
+
+
+    }
+  }
+
+  .page-simple__wrapper {
+    min-height: 0;
+  }
+
   &__title-wrapper {
-    align-content: bottom;
+    align-content: flex-end;
     align-items: flex-end;
     padding-bottom: 20px;
+    padding-left: 30px;
   }
 
   &__title {
@@ -34,6 +50,7 @@
     align-content: flex-end;
     align-items: flex-end;
     justify-content: flex-end;
+    padding: 0;
   }
 
   &__image {
@@ -50,5 +67,9 @@
 
   .page-simple__wrapper {
     margin-bottom: 30px !important;
+
+    h3:first-child {
+      margin-top: 0;
+    }
   }
 }

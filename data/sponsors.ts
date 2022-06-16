@@ -17,41 +17,40 @@ const sponsors: SponsorGroups = {
   [SponsorType.Diamond]: [
     {
       name: 'Nextail',
-      logo: '/i/sponsors/nextail.svg',
+      logo: '/i/sps/nextail.svg',
       link: 'https://bit.ly/PulpoCon'
-    },
+    }
     // {
     //   name: 'Twilio',
-    //   logo: '/i/sponsors/twilio.svg',
+    //   logo: '/i/sps/twilio.svg',
     //   link: 'https://www.twilio.com/'
     // }
   ],
   [SponsorType.Gold]: [
     {
       name: 'Boardfy',
-      logo: '/i/sponsors/boardfy.svg',
+      logo: '/i/sps/boardfy.svg',
       link: 'https://www.boardfy.com/?utm_origin=pulpocon&utm_medium=web'
     },
     {
       name: 'Gradiant',
-      logo: '/i/sponsors/gradiant.png',
+      logo: '/i/sps/gradiant.png',
       link: 'https://www.gradiant.org/?utm_origin=pulpocon&utm_medium=web'
     },
     {
       name: 'benshi.ai',
-      logo: '/i/sponsors/benshi_ai.svg',
+      logo: '/i/sps/benshi_ai.svg',
       link: 'https://www.benshi.ai/?utm_origin=pulpocon&utm_medium=web'
-    },
+    }
   ],
   [SponsorType.Bronze]: [
     {
       name: 'Hack A Boss',
-      logo: '/i/sponsors/hackaboss.png',
+      logo: '/i/sps/hackaboss.png',
       link: 'https://www.hackaboss.com/?utm_origin=pulpocon&utm_medium=web'
-    },
+    }
   ],
   [SponsorType.Supporter]: []
 }
-
 
 export default sponsors

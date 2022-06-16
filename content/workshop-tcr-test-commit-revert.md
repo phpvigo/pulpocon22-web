@@ -5,7 +5,7 @@ type: workshop
 speakers: ["Isabel Garrido", "Verónica Flores"]
 ---
 
-## Isabel Garrido
+### Isabel Garrido
 
 Desarrolladora backend con varios años de experiencia trabajando en distintos proyectos como e-commerce y marketplaces
 con mucho tráfico, actualmente trabaja en Seat:Code. Tiene especial interés en desarrollar de forma sostenible y fácil
@@ -15,7 +15,7 @@ observabilidad.
 Compagina su trabajo con ser mentora en Step4ward un proyecto que nació hace algo más de 1 año para acompañar a mujeres
 nuevas en el sector y a aquellas que llevasen más tiempo pero se sintieran estancadas y no supieran por dónde seguir.
 
-## Verónica Flores
+### Verónica Flores
 
 Vero es desarrolladora backend.
 

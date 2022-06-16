@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <home-hero></home-hero>
-    <!--    <sponsors-block :type="SponsorType.Diamond"></sponsors-block>-->
+    <!--    <sps-block :type="SponsorType.Diamond"></sps-block>-->
     <home-tickets></home-tickets>
     <home-program></home-program>
     <home-venue></home-venue>
@@ -26,7 +26,7 @@ import HomeVenue from '~/pages/index/components/Venue'
 export default defineComponent({
   name: 'Index',
   components: { HomeHero, HomeTickets, HomeFollow, HomeVenue, SponsorsBlock, HomeProgram, Home2019 },
-  setup() {
+  setup () {
     useHead({
       bodyAttrs: {
         class: 'home'
