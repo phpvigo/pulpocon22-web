@@ -167,7 +167,12 @@ const program: Program = {
       {
         name: '',
         schedule: [
-          { time: ['13:10', '14:00'], type: Type.Talk, title: 'TBC', speaker: 'Nuria Soriano' },
+          {
+            time: ['13:10', '14:00'],
+            type: Type.Talk,
+            title: 'Testing en frontend: ¿por qué está roto y cómo podemos arreglarlo?',
+            speaker: 'Nuria Soriano'
+          },
           { time: ['14:10', '16:00'], title: 'Comida' },
           { time: ['16:00', '16:40'], type: Type.Talk, title: 'TBC', speaker: 'Concha Asensio' },
           {
