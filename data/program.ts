@@ -110,7 +110,12 @@ const program: Program = {
             link: '/workshop-tcr-test-commit-revert'
           },
           { time: ['14:00', '15:00'], title: 'Comida' },
-          { time: ['15:00', '17:00'], type: Type.Workshop, title: 'Taller', speaker: 'Gemma Jorba' }
+          {
+            time: ['15:00', '17:00'],
+            type: Type.Workshop,
+            title: 'Explota, Explota, me expló! 💣 Explota, explota todo mi front 🎶',
+            speaker: 'Gemma Jorba'
+          }
         ]
       },
       {

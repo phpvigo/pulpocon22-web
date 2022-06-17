@@ -48,19 +48,22 @@ export default defineNuxtConfig({
       }
     ],
     script: [
-      { src: '/libs/tarteaucitron/tarteaucitron.js' },
+      { src: '/libs/tarteaucitron/tarteaucitron.js' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   loading: { color: '#3DCDF9' },
   plugins: [],
   build: {
-    extractCSS: true,
+    extractCSS: true
+  },
+  render: {
+    resourceHints: false
   },
   vite: {
     plugins: [mdPlugin({
       mode: Mode.VUE
     })],
-    assetsInclude: ['**/*.m4v'],
+    assetsInclude: ['**/*.m4v']
   }
 })
