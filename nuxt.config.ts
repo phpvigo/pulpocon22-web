@@ -57,6 +57,7 @@ export default defineNuxtConfig({
   build: {
     extractCSS: true
   },
+  
   render: {
     resourceHints: false
   },
