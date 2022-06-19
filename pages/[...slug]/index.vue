@@ -30,9 +30,25 @@
           Comprar entradas
         </a>
       </footer>
+
+      <div class="container-fluid-1440">
+        <aside class="sp-block">
+          <h2 class="sp-block__title">Diamond sponsors</h2>
+          <sponsors :type="SponsorType.Diamond"></sponsors>
+        </aside>
+
+        <aside class="sp-block">
+          <h2 class="sp-block__title">Gold sponsors</h2>
+          <sponsors :type="SponsorType.Gold"></sponsors>
+        </aside>
+      </div>
     </article>
+
+
   </ContentDoc>
 </template>
 <script lang="ts" setup>
 import config from '@/data/config'
-import './page-talk.scss'</script>
+import './page-talk.scss'
+import Sponsors from '~/components/Sps'
+import { SponsorType } from '~/data/sponsors'</script>

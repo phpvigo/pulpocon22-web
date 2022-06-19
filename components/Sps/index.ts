@@ -1,4 +1,4 @@
 import './Sp.scss'
-import Sponsors from './Sponsors.vue'
+import Sponsors from './Sps.vue'
 
 export default Sponsors

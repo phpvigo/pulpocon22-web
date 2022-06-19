@@ -35,7 +35,7 @@ import config from '@/data/config'
 import { defineComponent } from 'vue'
 import BtnNavDown from '~/components/BtnNavDown'
 import Logo from '~/components/Logo.vue'
-import Sponsors from '~/components/Sponsors'
+import Sponsors from '~/components/Sps'
 import { SponsorType } from '~/data/sponsors'
 
 export default defineComponent({
@@ -45,7 +45,7 @@ export default defineComponent({
     Sponsors,
     BtnNavDown
   },
-  setup() {
+  setup () {
     return {
       config,
       SponsorType

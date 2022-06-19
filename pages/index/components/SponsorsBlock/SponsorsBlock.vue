@@ -9,7 +9,7 @@
   </div>
 </template>
 <script lang="ts">
-import Sponsors from '@/components/Sponsors'
+import Sponsors from '@/components/Sps'
 import { defineComponent } from 'vue'
 import { SponsorType } from '~/data/sponsors'
 

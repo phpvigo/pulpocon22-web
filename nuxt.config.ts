@@ -55,9 +55,9 @@ export default defineNuxtConfig({
   loading: { color: '#3DCDF9' },
   plugins: [],
   build: {
-    extractCSS: true
+    extractCSS: true,
+    resourceHints: false
   },
-  
   render: {
     resourceHints: false
   },

@@ -21,7 +21,7 @@
 <script lang="ts">
 import program from '@/data/program'
 import { defineComponent } from 'vue'
-import Sponsors from '~/components/Sponsors'
+import Sponsors from '~/components/Sps'
 import { SponsorType } from '~/data/sponsors'
 import EventDay from '~/pages/index/components/Program/components/EventDay'
 
@@ -32,7 +32,7 @@ export default defineComponent({
     EventDay,
     Sponsors
   },
-  setup() {
+  setup () {
     return {
       program,
       SponsorType

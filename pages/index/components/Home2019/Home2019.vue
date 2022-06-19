@@ -25,7 +25,7 @@
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-import Sponsors from '~/components/Sponsors'
+import Sponsors from '~/components/Sps'
 import { SponsorType } from '~/data/sponsors'
 
 export default defineComponent({
@@ -33,7 +33,7 @@ export default defineComponent({
   components: {
     Sponsors
   },
-  setup() {
+  setup () {
     return {
       SponsorType
     }
