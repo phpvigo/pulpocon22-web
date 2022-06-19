@@ -1,13 +1,11 @@
 <template>
   <div class="home">
     <home-hero></home-hero>
-    <!--    <sps-block :type="SponsorType.Diamond"></sps-block>-->
     <home-tickets></home-tickets>
     <home-program></home-program>
     <home-venue></home-venue>
     <home-follow></home-follow>
     <home-2019></home-2019>
-
   </div>
 </template>
 
