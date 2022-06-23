@@ -1,7 +1,9 @@
 <template>
   <section id="2019" class="home-2019 section section--white section--bg-bottom">
 
-    <sponsors class="mb-3" :type="SponsorType.Bronze"></sponsors>
+    <div class="container-fluid-900">
+      <sponsors class="mb-3" :type="SponsorType.Bronze"></sponsors>
+    </div>
 
     <div class="container-fluid-900">
       <header class="section__header">

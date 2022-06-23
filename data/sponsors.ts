@@ -53,7 +53,13 @@ const sponsors: SponsorGroups = {
       name: 'Hack A Boss',
       logo: '/i/sps/hackaboss.png',
       link: 'https://www.hackaboss.com/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Ultreia',
+      logo: '/i/sps/ultreia.png',
+      link: 'https://www.ultreia.es/?utm_origin=pulpocon&utm_medium=web'
     }
+
   ],
   [SponsorType.Supporter]: []
 }
