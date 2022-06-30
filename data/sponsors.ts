@@ -46,6 +46,11 @@ const sponsors: SponsorGroups = {
       name: 'SiteGround',
       logo: '/i/sps/siteground.svg',
       link: 'https://www.siteground.es/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Arengu',
+      logo: '/i/sps/arengu.svg',
+      link: 'https://arengu.com/?utm_origin=pulpocon&utm_medium=web'
     }
   ],
   [SponsorType.Bronze]: [
