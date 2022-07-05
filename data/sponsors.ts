@@ -19,6 +19,11 @@ const sponsors: SponsorGroups = {
       name: 'Nextail',
       logo: '/i/sps/nextail.svg',
       link: 'https://bit.ly/PulpoCon'
+    },
+    {
+      name: 'New Relic',
+      logo: '/i/sps/newrelic.svg',
+      link: 'https://newrelic.com/about/culture?utm_origin=pulpocon&utm_medium=web'
     }
     // {
     //   name: 'Twilio',
