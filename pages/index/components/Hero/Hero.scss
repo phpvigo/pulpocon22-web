@@ -46,9 +46,14 @@
   .sps {
     animation: zoom-in 0.7s ease-in-out 1.7s backwards;
     margin-bottom: 2em;
+    max-width: 100%;
 
     img {
       width: 100%;
+    }
+
+    article:first-child {
+      width: 250px
     }
   }
 }
