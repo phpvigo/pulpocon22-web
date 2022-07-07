@@ -14,11 +14,11 @@
         </p>
       </div>
       <footer class="section__footer">
-        <a class="btn btn--contrast"
-           :href="config.ticketsUrl"
-           target="_blank">
-          Compra ya tus entradas
-        </a>
+        <span class="btn btn--contrast btn--disabled"
+              :href="config.ticketsUrl"
+              target="_blank">
+          Entradas agotadas
+        </span>
       </footer>
     </div>
   </section>
@@ -27,10 +27,9 @@
 import config from '@/data/config'
 import { defineComponent } from 'vue'
 
-
 export default defineComponent({
   name: 'HomeTickets',
-  setup() {
+  setup () {
     return {
       config
     }

@@ -14,7 +14,7 @@
 
           <p>Con reconocidos ponentes de gran prestigio nacional e internacional.</p>
 
-          <a v-if="config.ticketsUrl" :href="config.ticketsUrl" class="link--blue">Compra ya tus entradas</a>
+          <span v-if="config.ticketsUrl" :href="config.ticketsUrl" class="strikethrough link--blue">Compra ya tus entradas</span>
         </article>
 
         <sponsors :type="SponsorType.Diamond"></sponsors>

@@ -12,7 +12,7 @@
   font-size: 20px;
   margin: 0 20px 10px 0;
 
-  &:hover {
+  &:not(.btn--disabled):hover {
     color: var(--text-contrast-color);
     background: var(--text-color);
   }
@@ -22,7 +22,7 @@
     background: rgba($text-contrast-color, 0.15);
     color: var(--text-contrast-color);
 
-    &:hover {
+    &:not(.btn--disabled):hover {
       color: var(--text-color);
       background: var(--text-contrast-color);
     }
