@@ -56,6 +56,11 @@ const sponsors: SponsorGroups = {
       name: 'Arengu',
       logo: '/i/sps/arengu.svg',
       link: 'https://arengu.com/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'idealista',
+      logo: '/i/sps/idealista.svg',
+      link: 'https://www.idealista.com/empleo/ofertas/?utm_origin=pulpocon&utm_medium=web'
     }
   ],
   [SponsorType.Bronze]: [
@@ -68,6 +73,11 @@ const sponsors: SponsorGroups = {
       name: 'Ultreia',
       logo: '/i/sps/ultreia.png',
       link: 'https://www.ultreia.es/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Marine Instruments',
+      logo: '/i/sps/marine.png',
+      link: 'https://www.marineinstruments.es/?utm_origin=pulpocon&utm_medium=web'
     }
 
   ],
