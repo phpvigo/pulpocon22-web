@@ -9,6 +9,10 @@
     padding: 20px;
     transition: all .2s ease-in-out;
 
+    &:after {
+      display: none;
+    }
+
     &:hover {
       transform: scale(1.2)
     }
@@ -19,6 +23,13 @@
       width: 300px;
       max-width: 100%;
       flex: 0 1 calc(33% - 15px);
+    }
+  }
+
+  &--octopus {
+    .sp {
+      width: 500px;
+      max-width: 100%;
     }
   }
 

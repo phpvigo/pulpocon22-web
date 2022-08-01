@@ -4,6 +4,8 @@
       <header class="page-simple__header">
         <h1 class="page-simple__title">Diversidad</h1>
       </header>
+
+
       <div class="page-simple__content">
         <p>La diversidad, importa. Desde la organización de la <strong>PulpoCon</strong> sabemos que cuando el
           desarrollo de una aplicación se lleva a cabo por un equipo diverso, esto hace que el resultado sea de mayor
@@ -19,22 +21,36 @@
 
         <p>Por todo ello, queremos transmitir nuestra invitación sincera a todos los colectivos que suelen estar poco
           representados en la comunidad tecnológica a que formen parte de la PulpoCon</p>
+
+        <p><strong>Las entradas diversity estan patrocinadas por:</strong></p>
       </div>
+
+      <sponsors :type="SponsorType.Octopus"></sponsors>
     </div>
   </article>
 </template>
 <script lang="ts">
 import { useHead } from '@vueuse/head'
+import Sponsors from '~/components/Sps'
 import { defineComponent } from 'vue'
+import { SponsorType } from '~/data/sponsors'
 
 export default defineComponent({
   name: 'Diversity',
-  setup() {
+  components: {
+    Sponsors
+  },
+  setup () {
     useHead({
       bodyAttrs: {
         class: 'page-simple page-diversity'
       }
     })
+
+    return {
+      SponsorType
+    }
+
   }
 })
 </script>

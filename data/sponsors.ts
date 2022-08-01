@@ -5,6 +5,7 @@ export interface Sponsor {
 }
 
 export enum SponsorType {
+  Octopus = 'octopus',
   Diamond = 'diamond',
   Gold = 'gold',
   Bronze = 'bronze',
@@ -14,6 +15,13 @@ export enum SponsorType {
 type SponsorGroups = Record<SponsorType, Sponsor[]>
 
 const sponsors: SponsorGroups = {
+  [SponsorType.Octopus]: [
+    {
+      name: 'Wallbox',
+      logo: '/i/sps/wallbox.svg',
+      link: 'https://wallbox.com/es_es/?utm_origin=pulpocon&utm_medium=web'
+    }
+  ],
   [SponsorType.Diamond]: [
     {
       name: 'Nextail',
@@ -24,12 +32,17 @@ const sponsors: SponsorGroups = {
       name: 'New Relic',
       logo: '/i/sps/newrelic.svg',
       link: 'https://newrelic.com/about/culture?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Twilio',
+      logo: '/i/sps/twilio.svg',
+      link: 'https://www.twilio.com/'
+    },
+    {
+      name: 'Cabify',
+      logo: '/i/sps/cabify.svg',
+      link: 'https://cabify.com/es/?utm_origin=pulpocon&utm_medium=web'
     }
-    // {
-    //   name: 'Twilio',
-    //   logo: '/i/sps/twilio.svg',
-    //   link: 'https://www.twilio.com/'
-    // }
   ],
   [SponsorType.Gold]: [
     {
@@ -78,8 +91,27 @@ const sponsors: SponsorGroups = {
       name: 'Marine Instruments',
       logo: '/i/sps/marine.png',
       link: 'https://www.marineinstruments.es/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Codely',
+      logo: '/i/sps/codely.svg',
+      link: 'https://codely.com/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Seat Code',
+      logo: '/i/sps/seat-code.svg',
+      link: 'https://code.seat/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Codium',
+      logo: '/i/sps/codium.png',
+      link: 'https://www.codium.team/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
+      name: 'Auth0',
+      logo: '/i/sps/auth0.svg',
+      link: 'https://auth0.com//?utm_origin=pulpocon&utm_medium=web'
     }
-
   ],
   [SponsorType.Supporter]: []
 }
