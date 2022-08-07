@@ -15,6 +15,10 @@
           <event-day :day="eventDay"/>
         </article>
       </div>
+
+      <div class="container-fluid-1440">
+        <sponsors class="mb-3" :type="SponsorType.Bronze"></sponsors>
+      </div>
     </div>
   </section>
 </template>

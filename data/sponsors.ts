@@ -110,7 +110,7 @@ const sponsors: SponsorGroups = {
     {
       name: 'Auth0',
       logo: '/i/sps/auth0.svg',
-      link: 'https://auth0.com//?utm_origin=pulpocon&utm_medium=web'
+      link: 'https://a0.to/PulpoCon22'
     }
   ],
   [SponsorType.Supporter]: []

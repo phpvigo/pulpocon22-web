@@ -2,10 +2,6 @@
   <section id="2019" class="home-2019 section section--white section--bg-bottom">
 
     <div class="container-fluid-900">
-      <sponsors class="mb-3" :type="SponsorType.Bronze"></sponsors>
-    </div>
-
-    <div class="container-fluid-900">
       <header class="section__header">
         <h2 class="section__title">
           PulpoCon 19
