@@ -2,7 +2,10 @@
   <div>
     <web-header/>
     <mobile-menu :visible="visible"/>
-    <slot name="default"></slot>
+    <slot name="default">
+      <index></index>
+    </slot>
+
     <web-footer/>
   </div>
 </template>
@@ -15,10 +18,12 @@ import WebHeader from '~/components/WebHeader'
 import { useMobileMenuStore } from '~/stores/mobileMenu'
 import { useUIStore } from '~/stores/ui'
 import { navigateTo, useRoute } from '#app'
+import Index from '~/pages/index/index.vue'
 
 export default defineComponent({
   name: 'default',
   components: {
+    Index,
     WebFooter,
     MobileMenu,
     WebHeader
