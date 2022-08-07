@@ -8,12 +8,13 @@
 </template>
 <script lang="ts">
 import { storeToRefs } from 'pinia'
-import { defineComponent, onBeforeUnmount, onMounted } from 'vue'
+import { defineComponent, onBeforeMount, onBeforeUnmount, onMounted } from 'vue'
 import MobileMenu from '~/components/MobileMenu'
 import WebFooter from '~/components/WebFooter'
 import WebHeader from '~/components/WebHeader'
 import { useMobileMenuStore } from '~/stores/mobileMenu'
 import { useUIStore } from '~/stores/ui'
+import { navigateTo, useRoute } from '#app'
 
 export default defineComponent({
   name: 'default',
@@ -22,15 +23,23 @@ export default defineComponent({
     MobileMenu,
     WebHeader
   },
-  setup() {
+  setup () {
     const { setNotInTop } = useUIStore()
     const mobileMenuStore = useMobileMenuStore()
     const { visible } = storeToRefs(mobileMenuStore)
 
-
     const handleScroll = (): void => {
       setNotInTop(window.scrollY > 0)
     }
+
+    console.log('asdasd')
+
+    const route = useRoute()
+    onBeforeMount(() => {
+      if (!route.hash) {
+        navigateTo('/#home')
+      }
+    })
 
     onMounted(() => {
       handleScroll()
