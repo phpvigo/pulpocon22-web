@@ -44,9 +44,19 @@
   }
 
   .wallbox {
-    display: flex;
-    margin-bottom: 2em;
-    justify-content: center;
+
+
+    &__content {
+      display: flex;
+      margin-bottom: 2em;
+      justify-content: center;
+    }
+
+    &__title {
+      font-size: 15px;
+      color: #fff;
+      text-align: center;
+    }
 
     svg {
       width: 400px;

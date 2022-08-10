@@ -1,6 +1,6 @@
 <template>
   <section id="2019" class="home-2019 section section--white section--bg-bottom">
-
+    <sponsors :type="SponsorType.Supporter" show-title></sponsors>
     <div class="container-fluid-900">
       <header class="section__header">
         <h2 class="section__title">
@@ -25,10 +25,12 @@
 import { defineComponent } from 'vue'
 import Sponsors from '~/components/Sps'
 import { SponsorType } from '~/data/sponsors'
+import SponsorsBlock from '~/pages/index/components/SponsorsBlock'
 
 export default defineComponent({
   name: 'Home2019',
   components: {
+    SponsorsBlock,
     Sponsors
   },
   setup () {

@@ -113,7 +113,13 @@ const sponsors: SponsorGroups = {
       link: 'https://a0.to/PulpoCon22'
     }
   ],
-  [SponsorType.Supporter]: []
+  [SponsorType.Supporter]: [
+    {
+      name: 'Jet Brains',
+      logo: '/i/sps/jetbrains.svg',
+      link: 'https://www.jetbrains.com/?utm_origin=pulpocon&utm_medium=web'
+    }
+  ]
 }
 
 export default sponsors

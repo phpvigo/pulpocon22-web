@@ -1,7 +1,7 @@
 <template>
   <section id="program" class="home-program section section--white">
     <div class="container-fluid-1440">
-      <sponsors :type="SponsorType.Gold"></sponsors>
+      <sponsors show-title :type="SponsorType.Gold"></sponsors>
     </div>
     <div class="container-fluid-900">
       <header class="section__header">
@@ -17,7 +17,7 @@
       </div>
 
       <div class="container-fluid-1440">
-        <sponsors class="mb-3" :type="SponsorType.Bronze"></sponsors>
+        <sponsors class="mb-3" show-title :type="SponsorType.Bronze"></sponsors>
       </div>
     </div>
   </section>
