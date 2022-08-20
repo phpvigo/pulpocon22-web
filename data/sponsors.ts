@@ -93,6 +93,11 @@ const sponsors: SponsorGroups = {
       link: 'https://www.marineinstruments.es/?utm_origin=pulpocon&utm_medium=web'
     },
     {
+      name: 'quobis',
+      logo: '/i/sps/quobis.svg',
+      link: 'https://quobis.com/es/?utm_origin=pulpocon&utm_medium=web'
+    },
+    {
       name: 'Codely',
       logo: '/i/sps/codely.svg',
       link: 'https://codely.com/?utm_origin=pulpocon&utm_medium=web'
