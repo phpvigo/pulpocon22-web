@@ -53,7 +53,7 @@ const program: Program = {
       {
         name: 'Taller CQRS',
         schedule: [
-          { time: ['08:30', '09:00'], title: 'Badge pickup & Desayuno' },
+          { time: ['09:00', '09:30'], title: 'Badge pickup & Desayuno' },
           {
             time: ['09:30', '12:00'],
             type: Type.Workshop,
@@ -91,19 +91,19 @@ const program: Program = {
         name: 'Track Crafters',
         schedule: [
           {
-            time: ['09:30', '10:00'],
+            time: ['08:30', '09:30'],
             title: 'Badge pickup & Desayuno'
           },
           {
-            time: ['10:00', '12:00'],
+            time: ['09:30', '11:30'],
             type: Type.Workshop,
             title: 'TDD en la vida real',
             speaker: 'Fran Iglesias',
             link: 'workshop-fran-iglesias'
           },
-          { time: ['12:00', '12:30'], title: 'Descanso' },
+          { time: ['11:30', '12:00'], title: 'Descanso' },
           {
-            time: ['12:30', '14:00'],
+            time: ['12:00', '14:00'],
             type: Type.Workshop,
             title: 'TCR: Test && Commit || Revert',
             speaker: 'Isabel Garrido & Veronica Flores',
@@ -121,16 +121,16 @@ const program: Program = {
       {
         name: 'Track Devops',
         schedule: [
-          { time: ['09:30', '10:00'], title: 'Badge pickup & Desayuno' },
+          { time: ['08:30', '09:30'], title: 'Badge pickup & Desayuno' },
           {
-            time: ['10:00', '12:00'],
+            time: ['09:30', '11:30'],
             type: Type.Workshop,
             title: 'Building Data Pipelines at Scale',
             speaker: 'Rosa Ferrando & David Macia'
           },
-          { time: ['12:00', '12:30'], title: 'Descanso' },
+          { time: ['11:30', '12:00'], title: 'Descanso' },
           {
-            time: ['12:30', '14:00'],
+            time: ['12:00', '14:00'],
             type: Type.Workshop,
             title: 'Monitorizando nuestras aplicaciones',
             speaker: 'Lucía Díaz Rodríguez',
@@ -170,20 +170,19 @@ const program: Program = {
             speaker: 'Eloy Coto'
           },
           { time: ['11:50', '12:30'], title: 'Descanso' },
-          { time: ['12:30', '13:10'], type: Type.Talk, title: 'Unleash the devs', speaker: 'Paula Julve' }
-
+          { time: ['12:30', '13:10'], type: Type.Talk, title: 'Unleash the devs', speaker: 'Paula Julve' },
+          {
+            time: ['13:20', '14:00'],
+            type: Type.Talk,
+            title: 'Testing en frontend: ¿por qué está roto y cómo podemos arreglarlo?',
+            speaker: 'Nuria Soriano'
+          }
         ]
       },
       {
         name: '',
         schedule: [
-          {
-            time: ['13:10', '14:00'],
-            type: Type.Talk,
-            title: 'Testing en frontend: ¿por qué está roto y cómo podemos arreglarlo?',
-            speaker: 'Nuria Soriano'
-          },
-          { time: ['14:10', '16:00'], title: 'Comida' },
+          { time: ['14:10', '16:00'], title: 'Comida', speaker: 'Acceso limitado a las entradas con comida' },
           {
             time: ['16:00', '16:40'],
             type: Type.Talk,
@@ -198,7 +197,8 @@ const program: Program = {
             speaker: 'Ricard Clau'
           },
           { time: ['17:40', '18:30'], type: Type.Talk, title: 'The Hidden Event', speaker: 'Ghost Speaker' },
-          { time: ['18:40'], title: 'Clausura' }
+          { time: ['18:40', '19:00'], title: 'Clausura' },
+          { time: ['19:00', '21:00'], title: 'Cócter-networking', speaker: 'Acceso limitado a las entradas con comida' }
         ]
       }
     ]
