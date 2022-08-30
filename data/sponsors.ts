@@ -9,7 +9,8 @@ export enum SponsorType {
   Diamond = 'diamond',
   Gold = 'gold',
   Bronze = 'bronze',
-  Supporter = 'supporter'
+  Supporter = 'supporter',
+  Multimedia = 'multimedia'
 }
 
 type SponsorGroups = Record<SponsorType, Sponsor[]>
@@ -123,6 +124,13 @@ const sponsors: SponsorGroups = {
       name: 'Jet Brains',
       logo: '/i/sps/jetbrains.svg',
       link: 'https://www.jetbrains.com/?utm_origin=pulpocon&utm_medium=web'
+    }
+  ],
+  [SponsorType.Multimedia]: [
+    {
+      name: 'Teltek',
+      logo: '/i/sps/teltek.png',
+      link: 'https://teltek.es//?utm_origin=pulpocon&utm_medium=web'
     }
   ]
 }

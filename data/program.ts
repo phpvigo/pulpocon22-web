@@ -157,15 +157,20 @@ const program: Program = {
         schedule: [
           { time: ['09:00', '10:00'], title: 'Badge pickup & Desayuno' },
           { time: ['10:00', '10:10'], title: 'Apertura' },
-          { time: ['10:10', '10:50'], type: Type.Talk, title: 'TBC', speaker: 'Ana Fernandez Del Rio' },
           {
-            time: ['11:00', '10:40'],
+            time: ['10:10', '10:50'],
+            type: Type.Talk,
+            title: '¿Qué es la ciencia de datos y para qué sirve?',
+            speaker: 'Ana Fernandez Del Rio'
+          },
+          {
+            time: ['11:00', '11:40'],
             type: Type.Talk,
             title: 'Get rid of your delay, introducing edge computing!',
             speaker: 'Eloy Coto'
           },
           { time: ['11:50', '12:30'], title: 'Descanso' },
-          { time: ['12:30', '13:10'], type: Type.Talk, title: 'TBC', speaker: 'Paula Julve' }
+          { time: ['12:30', '13:10'], type: Type.Talk, title: 'Unleash the devs', speaker: 'Paula Julve' }
 
         ]
       },
@@ -179,7 +184,12 @@ const program: Program = {
             speaker: 'Nuria Soriano'
           },
           { time: ['14:10', '16:00'], title: 'Comida' },
-          { time: ['16:00', '16:40'], type: Type.Talk, title: 'TBC', speaker: 'Concha Asensio' },
+          {
+            time: ['16:00', '16:40'],
+            type: Type.Talk,
+            title: 'Junior XP: cómo practicar eXtreme Programming y no morir en el intento',
+            speaker: 'Concha Asensio'
+          },
           {
             time: ['16:50', '17:30'],
             type: Type.Talk,

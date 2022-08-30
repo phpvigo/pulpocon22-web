@@ -1,6 +1,9 @@
 <template>
   <section id="location" class="home-venue section section--blue section--bg-bottom">
     <div class="section__wrapper">
+      <div class="container-fluid-1440">
+        <sponsors show-title :type="SponsorType.Multimedia"></sponsors>
+      </div>
       <div class="container-fluid-900">
         <header class="section__header">
           <h2 class="section__title">
@@ -69,17 +72,25 @@
           </ul>
         </footer>
       </div>
+
+
     </div>
   </section>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-
+import { SponsorType } from '~/data/sponsors'
+import Sponsors from '~/components/Sps'
 
 export default defineComponent({
   name: 'HomeTickets',
-  setup() {
-    return {}
+  components: {
+    Sponsors
+  },
+  setup () {
+    return {
+      SponsorType
+    }
   }
 })
 </script>
