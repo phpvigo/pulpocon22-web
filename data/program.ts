@@ -198,7 +198,7 @@ const program: Program = {
           },
           { time: ['17:40', '18:30'], type: Type.Talk, title: 'The Hidden Event', speaker: 'Ghost Speaker' },
           { time: ['18:40', '19:00'], title: 'Clausura' },
-          { time: ['19:00', '21:00'], title: 'Cócter-networking', speaker: 'Acceso limitado a las entradas con comida' }
+          { time: ['19:00', '21:00'], title: 'Cóctel-networking', speaker: 'Acceso limitado a las entradas con comida' }
         ]
       }
     ]
