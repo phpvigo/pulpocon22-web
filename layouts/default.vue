@@ -11,13 +11,12 @@
 </template>
 <script lang="ts">
 import { storeToRefs } from 'pinia'
-import { defineComponent, onBeforeMount, onBeforeUnmount, onMounted } from 'vue'
+import { defineComponent, onBeforeUnmount, onMounted } from 'vue'
 import MobileMenu from '~/components/MobileMenu'
 import WebFooter from '~/components/WebFooter'
 import WebHeader from '~/components/WebHeader'
 import { useMobileMenuStore } from '~/stores/mobileMenu'
 import { useUIStore } from '~/stores/ui'
-import { navigateTo, useRoute } from '#app'
 import Index from '~/pages/index/index.vue'
 
 export default defineComponent({
@@ -36,15 +35,6 @@ export default defineComponent({
     const handleScroll = (): void => {
       setNotInTop(window.scrollY > 0)
     }
-
-    console.log('asdasd')
-
-    const route = useRoute()
-    onBeforeMount(() => {
-      if (!route.hash) {
-        navigateTo('/#home')
-      }
-    })
 
     onMounted(() => {
       handleScroll()
