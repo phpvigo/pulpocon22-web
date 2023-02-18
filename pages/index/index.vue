@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <home-hero></home-hero>
-    <home-tickets></home-tickets>
+<!--    <home-tickets></home-tickets>-->
     <home-program></home-program>
     <home-venue></home-venue>
     <home-follow></home-follow>
